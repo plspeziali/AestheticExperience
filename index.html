@@ -6,14 +6,14 @@
 
     #chartdiv {
         width: 100%;
-        height: 400px;
+        height: 800px;
     }
 
     #background-image {
         position: absolute;
         width: 100%;
         height: 100%;
-        background-image: url('your-image.jpg');
+        /* background-image: url('your-image.jpg'); */
         background-size: cover;
     }
 
@@ -25,10 +25,35 @@
 <script src="https://cdn.amcharts.com/lib/4/plugins/forceDirected.js"></script>
 <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
 
-<!-- Chart code -->
-<script src="script.js"></script>
+<!-- unpkg -->
+<script src="https://unpkg.com/@egjs/flicking/dist/flicking.pkgd.min.js" crossorigin="anonymous"></script>
+<!-- cdnjs -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/egjs-flicking/4.11.0/flicking.pkgd.min.js" crossorigin="anonymous"></script>
+
+<!-- unpkg -->
+<link rel="stylesheet" href="https://unpkg.com/@egjs/flicking/dist/flicking.css" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://unpkg.com/@egjs/flicking/dist/flicking-inline.css" crossorigin="anonymous" />
+<!-- cdnjs -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/egjs-flicking/4.11.0/flicking.css" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/egjs-flicking/4.11.0/flicking-inline.css" crossorigin="anonymous" />
+
 
 <!-- HTML -->
+<!-- Viewport element -->
+<div id="carousel" class="flicking-viewport">
+    <!-- Camera element -->
+    <div class="flicking-camera">
+        <!-- Panels, class names are your choice -->
+        <div class="panel"></div>
+        <div class="panel"></div>
+        <div class="panel"></div>
+    </div>
+</div>
+
+
 <div id="background-image">
 <div id="chartdiv"></div>
 </div>
+
+<!-- Chart code -->
+<script src="script.js"></script>

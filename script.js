@@ -113,3 +113,11 @@ am4core.ready(function() {
     })
 
 }); // end am4core.ready()
+
+
+const flicking = new Flicking("#carousel", {
+    align: "center",
+    circular: true,
+    bound: true,
+    renderOnlyVisible: true
+});
