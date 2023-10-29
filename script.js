@@ -3,10 +3,12 @@ am4core.ready(function() {
 // Themes begin
     am4core.useTheme(am4themes_animated);
 // Themes end
+    createChart("chart-container1")
 
+}); // end am4core.ready()
 
-
-    var chart = am4core.create("chartdiv", am4plugins_forceDirected.ForceDirectedTree);
+function createChart(div_selected){
+    var chart = am4core.create(div_selected, am4plugins_forceDirected.ForceDirectedTree);
     var networkSeries = chart.series.push(new am4plugins_forceDirected.ForceDirectedSeries())
 
     chart.data = [
@@ -111,13 +113,31 @@ am4core.ready(function() {
             event.target.dataItem.parentLink.isHover = false;
         }
     })
+}
 
-}); // end am4core.ready()
 
+const charts = ["chart-container1", "chart-container2", "chart-container3"]; // Add your chart data here
+let currentChartIndex = 0;
 
-const flicking = new Flicking("#carousel", {
-    align: "center",
-    circular: true,
-    bound: true,
-    renderOnlyVisible: true
+const chartContainer = document.getElementById('chart-container');
+const prevButton = document.getElementById('prev-chart');
+const nextButton = document.getElementById('next-chart');
+
+function renderCurrentChart() {
+    const chartData = charts[currentChartIndex];
+    // Create and render the amChart based on chartData
+    createChart(chartData); // Replace with your amChart creation logic
+}
+
+prevButton.addEventListener('click', () => {
+    currentChartIndex = (currentChartIndex - 1 + charts.length) % charts.length;
+    renderCurrentChart();
 });
+
+nextButton.addEventListener('click', () => {
+    currentChartIndex = (currentChartIndex + 1) % charts.length;
+    renderCurrentChart();
+});
+
+// Initial rendering
+renderCurrentChart();
