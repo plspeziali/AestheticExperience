@@ -1,141 +1,105 @@
+let json_data = null;
+
 am4core.ready(function() {
+
+    // Specify the URL of the JSON file you want to load
+    const jsonFileURL = 'dataset/all_networks.json';
+
+    // Create a new XMLHttpRequest object
+    const xhr = new XMLHttpRequest();
+
+    // Open the request synchronously (third parameter set to false)
+    xhr.open('GET', jsonFileURL, false);
+
+    // Send the request
+    xhr.send();
+
+    // Check the status and response
+    if (xhr.status === 200) {
+        // The request was successful, and the JSON data can be accessed in xhr.responseText
+        json_data = JSON.parse(xhr.responseText);
+    } else {
+        console.error('There was an error with the XMLHttpRequest.');
+    }
+
 
 // Themes begin
     am4core.useTheme(am4themes_animated);
 // Themes end
-    createChart("chart-container1")
+    //createChart(0)
 
 }); // end am4core.ready()
 
-function createChart(div_selected){
-    var chart = am4core.create(div_selected, am4plugins_forceDirected.ForceDirectedTree);
-    var networkSeries = chart.series.push(new am4plugins_forceDirected.ForceDirectedSeries())
+function createChart(paint_selected){
+    $("#bgdiv").fadeOut(500, function(){
 
-    chart.data = [
-        {
-            name: "Core",
-            children: [
-                {
-                    name: "First",
-                    children: [
-                        { name: "A1", value: 100 },
-                        { name: "A2", value: 60 }
-                    ]
-                },
-                {
-                    name: "Second",
-                    children: [
-                        { name: "B1", value: 135 },
-                        { name: "B2", value: 98 }
-                    ]
-                },
-                {
-                    name: "Third",
-                    children: [
-                        {
-                            name: "C1",
-                            children: [
-                                { name: "EE1", value: 130 },
-                                { name: "EE2", value: 87 },
-                                { name: "EE3", value: 55 }
-                            ]
-                        },
-                        { name: "C2", value: 148 },
-                        {
-                            name: "C3", children: [
-                                { name: "CC1", value: 53 },
-                                { name: "CC2", value: 30 }
-                            ]
-                        },
-                        { name: "C4", value: 26 }
-                    ]
-                },
-                {
-                    name: "Fourth",
-                    children: [
-                        { name: "D1", value: 415 },
-                        { name: "D2", value: 148 },
-                        { name: "D3", value: 89 }
-                    ]
-                },
-                {
-                    name: "Fifth",
-                    children: [
-                        {
-                            name: "E1",
-                            children: [
-                                { name: "EE1", value: 33 },
-                                { name: "EE2", value: 40 },
-                                { name: "EE3", value: 89 }
-                            ]
-                        },
-                        {
-                            name: "E2",
-                            value: 148
-                        }
-                    ]
-                }
+        $("#chart").empty();
+        let bgdiv = document.getElementById('bgdiv');
+        bgdiv.style.backgroundImage = "url('images/"+(paint_selected+1)+".jpg')";
+    });
 
-            ]
-        }
-    ];
+    $("#bgdiv").fadeIn(500, function() {
+        var chart = am4core.create("chart", am4plugins_forceDirected.ForceDirectedTree);
+        // Rest of your chart configuration
+        var networkSeries = chart.series.push(new am4plugins_forceDirected.ForceDirectedSeries())
 
-    networkSeries.dataFields.value = "value";
-    networkSeries.dataFields.name = "name";
-    networkSeries.dataFields.children = "children";
-    networkSeries.nodes.template.tooltipText = "{name}:{value}";
-    networkSeries.nodes.template.fillOpacity = 1;
+        chart.data = json_data["Klee Yellow"];
+        console.log(json_data)
 
-    networkSeries.nodes.template.label.text = "{name}"
-    networkSeries.fontSize = 10;
+        networkSeries.dataFields.value = "value";
+        networkSeries.dataFields.name = "name";
+        networkSeries.dataFields.children = "children";
+        networkSeries.nodes.template.tooltipText = "{name}:{value}";
+        networkSeries.nodes.template.fillOpacity = 1;
 
-    networkSeries.links.template.strokeWidth = 1;
+        networkSeries.nodes.template.label.text = "{name}"
+        networkSeries.fontSize = 10;
 
-    var hoverState = networkSeries.links.template.states.create("hover");
-    hoverState.properties.strokeWidth = 3;
-    hoverState.properties.strokeOpacity = 1;
+        networkSeries.links.template.strokeWidth = 1;
 
-    networkSeries.nodes.template.events.on("over", function(event) {
-        event.target.dataItem.childLinks.each(function(link) {
-            link.isHover = true;
+        var hoverState = networkSeries.links.template.states.create("hover");
+        hoverState.properties.strokeWidth = 3;
+        hoverState.properties.strokeOpacity = 1;
+
+        networkSeries.nodes.template.events.on("over", function(event) {
+            event.target.dataItem.childLinks.each(function(link) {
+                link.isHover = true;
+            })
+            if (event.target.dataItem.parentLink) {
+                event.target.dataItem.parentLink.isHover = true;
+            }
+
         })
-        if (event.target.dataItem.parentLink) {
-            event.target.dataItem.parentLink.isHover = true;
-        }
 
-    })
-
-    networkSeries.nodes.template.events.on("out", function(event) {
-        event.target.dataItem.childLinks.each(function(link) {
-            link.isHover = false;
+        networkSeries.nodes.template.events.on("out", function(event) {
+            event.target.dataItem.childLinks.each(function(link) {
+                link.isHover = false;
+            })
+            if (event.target.dataItem.parentLink) {
+                event.target.dataItem.parentLink.isHover = false;
+            }
         })
-        if (event.target.dataItem.parentLink) {
-            event.target.dataItem.parentLink.isHover = false;
-        }
-    })
+    });
 }
 
-
-const charts = ["chart-container1", "chart-container2", "chart-container3"]; // Add your chart data here
+const paintingsLength = 8;
 let currentChartIndex = 0;
 
-const chartContainer = document.getElementById('chart-container');
 const prevButton = document.getElementById('prev-chart');
 const nextButton = document.getElementById('next-chart');
 
 function renderCurrentChart() {
-    const chartData = charts[currentChartIndex];
     // Create and render the amChart based on chartData
-    createChart(chartData); // Replace with your amChart creation logic
+    createChart(currentChartIndex); // Replace with your amChart creation logic
 }
 
 prevButton.addEventListener('click', () => {
-    currentChartIndex = (currentChartIndex - 1 + charts.length) % charts.length;
+    currentChartIndex = (currentChartIndex - 1 + paintingsLength) % paintingsLength;
     renderCurrentChart();
 });
 
 nextButton.addEventListener('click', () => {
-    currentChartIndex = (currentChartIndex + 1) % charts.length;
+    currentChartIndex = (currentChartIndex + 1) % paintingsLength;
     renderCurrentChart();
 });
 

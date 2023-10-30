@@ -1,47 +1,7 @@
 <!DOCTYPE html>
 <!-- Styles -->
-<style>
-    body {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    }
+<link rel="stylesheet" href="style.css">
 
-    #chart-container {
-        width: 100%;
-        height: 800px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-
-    #background-image {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        /* background-image: url('your-image.jpg'); */
-        background-size: cover;
-        top: 0;
-        left: 0;
-    }
-
-    .arrow-button {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        background: none;
-        border: none;
-        font-size: 24px;
-    }
-
-    #prev-chart {
-        left: 10px;
-    }
-
-    #next-chart {
-        right: 10px;
-    }
-
-</style>
 
 <!-- Resources -->
 <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
@@ -50,15 +10,21 @@
 <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
 
 
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 
-<div id="background-image">
-    <div id="chart-container1">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+<div class="background-image" id="bgdiv">
+    <div class="chart-container" id="chart">
         <!-- Your amChart container will go here -->
     </div>
 </div>
-<button id="prev-chart" class="arrow-button"><-</button>
-<button id="next-chart" class="arrow-button">-></button>
+<button id="prev-chart" class="arrow-button"><i class="bi bi-arrow-left"></i></button>
+<button id="next-chart" class="arrow-button"><i class="bi bi-arrow-right"></i></button>
 
 <!-- Chart code -->
 <script src="script.js"></script>

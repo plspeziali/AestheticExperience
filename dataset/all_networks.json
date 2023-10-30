@@ -1,0 +1,6402 @@
+{
+    "Klee Yellow": [
+        {
+            "name": "Positive",
+            "children": [
+                {
+                    "name": "Active",
+                    "value": -0.02774747257539761
+                },
+                {
+                    "name": "Still",
+                    "value": 0.2683399235824962
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.3432155726913728
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.5000129996797046
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.09273020971884251
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.056319091822574795
+                },
+                {
+                    "name": "Light",
+                    "value": -0.07751680732249712
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.31723731828174684
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.13157773608786053
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.16138809874316412
+                },
+                {
+                    "name": "Cautious",
+                    "value": -0.15527525906511971
+                },
+                {
+                    "name": "Like",
+                    "value": 0.3165132344595407
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.4418420162951887
+                }
+            ]
+        },
+        {
+            "name": "Active",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": -0.02774747257539761
+                },
+                {
+                    "name": "Still",
+                    "value": -0.44090483469500386
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.39105698590659094
+                },
+                {
+                    "name": "Peaceful",
+                    "value": -0.09959828994597833
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.039664789604943386
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.4629815682335787
+                },
+                {
+                    "name": "Light",
+                    "value": 0.3583912260360056
+                },
+                {
+                    "name": "Rough",
+                    "value": 0.0632058211739682
+                },
+                {
+                    "name": "Spiritual",
+                    "value": -0.051439751938899166
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.3352167646479778
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.12013059123499356
+                },
+                {
+                    "name": "Like",
+                    "value": -0.19490939066559576
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.049044466189608414
+                }
+            ]
+        },
+        {
+            "name": "Still",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.2683399235824962
+                },
+                {
+                    "name": "Active",
+                    "value": -0.44090483469500386
+                },
+                {
+                    "name": "Sad",
+                    "value": 0.11806970353395387
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.36492229516680347
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.32358434355006
+                },
+                {
+                    "name": "Cold",
+                    "value": 0.402248973530767
+                },
+                {
+                    "name": "Light",
+                    "value": -0.36173878981106394
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.3035462904092658
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.20730771822757083
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.022247384283891492
+                },
+                {
+                    "name": "Cautious",
+                    "value": -0.12183938398812218
+                },
+                {
+                    "name": "Like",
+                    "value": 0.0902663035374566
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.3041993089985476
+                }
+            ]
+        },
+        {
+            "name": "Sad",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": -0.3432155726913728
+                },
+                {
+                    "name": "Active",
+                    "value": -0.39105698590659094
+                },
+                {
+                    "name": "Still",
+                    "value": 0.11806970353395387
+                },
+                {
+                    "name": "Peaceful",
+                    "value": -0.354063782955153
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.014423426075710654
+                },
+                {
+                    "name": "Cold",
+                    "value": 0.2643769137121965
+                },
+                {
+                    "name": "Light",
+                    "value": -0.23635748126987202
+                },
+                {
+                    "name": "Rough",
+                    "value": 0.42340547406117607
+                },
+                {
+                    "name": "Spiritual",
+                    "value": -0.19330347155728772
+                },
+                {
+                    "name": "Feminine",
+                    "value": -0.36621575091713326
+                },
+                {
+                    "name": "Cautious",
+                    "value": -0.004043982172507106
+                },
+                {
+                    "name": "Like",
+                    "value": -0.04133333975686041
+                },
+                {
+                    "name": "Interesting",
+                    "value": -0.22133187542567243
+                }
+            ]
+        },
+        {
+            "name": "Peaceful",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.5000129996797046
+                },
+                {
+                    "name": "Active",
+                    "value": -0.09959828994597833
+                },
+                {
+                    "name": "Still",
+                    "value": 0.36492229516680347
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.354063782955153
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.0382435135727276
+                },
+                {
+                    "name": "Cold",
+                    "value": 0.0022939290497761737
+                },
+                {
+                    "name": "Light",
+                    "value": 0.04135732527319406
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.5219459504445809
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.14758343503204602
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.20208107941880177
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.055782241740143484
+                },
+                {
+                    "name": "Like",
+                    "value": 0.20169329860257929
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.23949617144162158
+                }
+            ]
+        },
+        {
+            "name": "Hard",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.09273020971884251
+                },
+                {
+                    "name": "Active",
+                    "value": -0.039664789604943386
+                },
+                {
+                    "name": "Still",
+                    "value": 0.32358434355006
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.014423426075710654
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.0382435135727276
+                },
+                {
+                    "name": "Cold",
+                    "value": 0.4087545158018996
+                },
+                {
+                    "name": "Light",
+                    "value": -0.4873915282171277
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.0011799750328242802
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.1594316442618825
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.03283434686785586
+                },
+                {
+                    "name": "Cautious",
+                    "value": -0.32690230277563953
+                },
+                {
+                    "name": "Like",
+                    "value": -0.2971939986196761
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.11646292418261259
+                }
+            ]
+        },
+        {
+            "name": "Cold",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": -0.056319091822574795
+                },
+                {
+                    "name": "Active",
+                    "value": -0.4629815682335787
+                },
+                {
+                    "name": "Still",
+                    "value": 0.402248973530767
+                },
+                {
+                    "name": "Sad",
+                    "value": 0.2643769137121965
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.0022939290497761737
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.4087545158018996
+                },
+                {
+                    "name": "Light",
+                    "value": -0.5666278290562595
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.062443077906307196
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.01712220478258671
+                },
+                {
+                    "name": "Feminine",
+                    "value": -0.32946662734174753
+                },
+                {
+                    "name": "Cautious",
+                    "value": -0.3138494306543118
+                },
+                {
+                    "name": "Like",
+                    "value": -0.012944829607274317
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.025050860794164322
+                }
+            ]
+        },
+        {
+            "name": "Light",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": -0.07751680732249712
+                },
+                {
+                    "name": "Active",
+                    "value": 0.3583912260360056
+                },
+                {
+                    "name": "Still",
+                    "value": -0.36173878981106394
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.23635748126987202
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.04135732527319406
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.4873915282171277
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.5666278290562595
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.04176756422773994
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.00035655448008712866
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.3170409146847107
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.5426800846764336
+                },
+                {
+                    "name": "Like",
+                    "value": 0.06012722683211738
+                },
+                {
+                    "name": "Interesting",
+                    "value": -0.1148600629245883
+                }
+            ]
+        },
+        {
+            "name": "Rough",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": -0.31723731828174684
+                },
+                {
+                    "name": "Active",
+                    "value": 0.0632058211739682
+                },
+                {
+                    "name": "Still",
+                    "value": -0.3035462904092658
+                },
+                {
+                    "name": "Sad",
+                    "value": 0.42340547406117607
+                },
+                {
+                    "name": "Peaceful",
+                    "value": -0.5219459504445809
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.0011799750328242802
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.062443077906307196
+                },
+                {
+                    "name": "Light",
+                    "value": -0.04176756422773994
+                },
+                {
+                    "name": "Spiritual",
+                    "value": -0.26291518021754573
+                },
+                {
+                    "name": "Feminine",
+                    "value": -0.25318549833866766
+                },
+                {
+                    "name": "Cautious",
+                    "value": -0.10661218592661094
+                },
+                {
+                    "name": "Like",
+                    "value": -0.08509592123950806
+                },
+                {
+                    "name": "Interesting",
+                    "value": -0.19152642053627425
+                }
+            ]
+        },
+        {
+            "name": "Spiritual",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.13157773608786053
+                },
+                {
+                    "name": "Active",
+                    "value": -0.051439751938899166
+                },
+                {
+                    "name": "Still",
+                    "value": 0.20730771822757083
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.19330347155728772
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.14758343503204602
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.1594316442618825
+                },
+                {
+                    "name": "Cold",
+                    "value": 0.01712220478258671
+                },
+                {
+                    "name": "Light",
+                    "value": 0.00035655448008712866
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.26291518021754573
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.13501508106577154
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.020743224804639925
+                },
+                {
+                    "name": "Like",
+                    "value": -0.05748069297179345
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.119985816124983
+                }
+            ]
+        },
+        {
+            "name": "Feminine",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.16138809874316412
+                },
+                {
+                    "name": "Active",
+                    "value": 0.3352167646479778
+                },
+                {
+                    "name": "Still",
+                    "value": 0.022247384283891492
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.36621575091713326
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.20208107941880177
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.03283434686785586
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.32946662734174753
+                },
+                {
+                    "name": "Light",
+                    "value": 0.3170409146847107
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.25318549833866766
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.13501508106577154
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.2353070174130444
+                },
+                {
+                    "name": "Like",
+                    "value": -0.18080699865936375
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.07835178708381313
+                }
+            ]
+        },
+        {
+            "name": "Cautious",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": -0.15527525906511971
+                },
+                {
+                    "name": "Active",
+                    "value": 0.12013059123499356
+                },
+                {
+                    "name": "Still",
+                    "value": -0.12183938398812218
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.004043982172507106
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.055782241740143484
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.32690230277563953
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.3138494306543118
+                },
+                {
+                    "name": "Light",
+                    "value": 0.5426800846764336
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.10661218592661094
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.020743224804639925
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.2353070174130444
+                },
+                {
+                    "name": "Like",
+                    "value": -0.009625255782751876
+                },
+                {
+                    "name": "Interesting",
+                    "value": -0.09387234446579958
+                }
+            ]
+        },
+        {
+            "name": "Like",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.3165132344595407
+                },
+                {
+                    "name": "Active",
+                    "value": -0.19490939066559576
+                },
+                {
+                    "name": "Still",
+                    "value": 0.0902663035374566
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.04133333975686041
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.20169329860257929
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.2971939986196761
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.012944829607274317
+                },
+                {
+                    "name": "Light",
+                    "value": 0.06012722683211738
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.08509592123950806
+                },
+                {
+                    "name": "Spiritual",
+                    "value": -0.05748069297179345
+                },
+                {
+                    "name": "Feminine",
+                    "value": -0.18080699865936375
+                },
+                {
+                    "name": "Cautious",
+                    "value": -0.009625255782751876
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.47074811049111914
+                }
+            ]
+        },
+        {
+            "name": "Interesting",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.4418420162951887
+                },
+                {
+                    "name": "Active",
+                    "value": 0.049044466189608414
+                },
+                {
+                    "name": "Still",
+                    "value": 0.3041993089985476
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.22133187542567243
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.23949617144162158
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.11646292418261259
+                },
+                {
+                    "name": "Cold",
+                    "value": 0.025050860794164322
+                },
+                {
+                    "name": "Light",
+                    "value": -0.1148600629245883
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.19152642053627425
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.119985816124983
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.07835178708381313
+                },
+                {
+                    "name": "Cautious",
+                    "value": -0.09387234446579958
+                },
+                {
+                    "name": "Like",
+                    "value": 0.47074811049111914
+                }
+            ]
+        }
+    ],
+    "Klee Red": [
+        {
+            "name": "Positive",
+            "children": [
+                {
+                    "name": "Active",
+                    "value": -0.1398113568372665
+                },
+                {
+                    "name": "Still",
+                    "value": 0.27881629494978455
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.27564749381476006
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.2852293485462983
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.06411823052170072
+                },
+                {
+                    "name": "Cold",
+                    "value": 0.07652283028940644
+                },
+                {
+                    "name": "Light",
+                    "value": -0.13519793779952294
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.29439027856232836
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.08033192619946791
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.20447222939096987
+                },
+                {
+                    "name": "Cautious",
+                    "value": -0.10712856279086784
+                },
+                {
+                    "name": "Like",
+                    "value": 0.31803667477296316
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.29057486869800697
+                }
+            ]
+        },
+        {
+            "name": "Active",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": -0.1398113568372665
+                },
+                {
+                    "name": "Still",
+                    "value": -0.3060983095526973
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.3191253156145136
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.016767934813189948
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.28247607232351124
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.3813955667991463
+                },
+                {
+                    "name": "Light",
+                    "value": 0.2381270877173717
+                },
+                {
+                    "name": "Rough",
+                    "value": 0.01553306365210532
+                },
+                {
+                    "name": "Spiritual",
+                    "value": -0.13492231324296647
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.25038653313577197
+                },
+                {
+                    "name": "Cautious",
+                    "value": -0.07148373731240987
+                },
+                {
+                    "name": "Like",
+                    "value": -0.33385725166303953
+                },
+                {
+                    "name": "Interesting",
+                    "value": -0.060903357504302404
+                }
+            ]
+        },
+        {
+            "name": "Still",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.27881629494978455
+                },
+                {
+                    "name": "Active",
+                    "value": -0.3060983095526973
+                },
+                {
+                    "name": "Sad",
+                    "value": 0.11177654477490565
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.14695239204143745
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.02824851226254584
+                },
+                {
+                    "name": "Cold",
+                    "value": 0.3295931923316558
+                },
+                {
+                    "name": "Light",
+                    "value": -0.12554897096082776
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.21171624926673643
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.1570625252322226
+                },
+                {
+                    "name": "Feminine",
+                    "value": -0.010031277159053064
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.09924813702293618
+                },
+                {
+                    "name": "Like",
+                    "value": 0.1275448393028804
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.1654732526215394
+                }
+            ]
+        },
+        {
+            "name": "Sad",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": -0.27564749381476006
+                },
+                {
+                    "name": "Active",
+                    "value": -0.3191253156145136
+                },
+                {
+                    "name": "Still",
+                    "value": 0.11177654477490565
+                },
+                {
+                    "name": "Peaceful",
+                    "value": -0.44484440097016553
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.2862750456933901
+                },
+                {
+                    "name": "Cold",
+                    "value": 0.25516386440344335
+                },
+                {
+                    "name": "Light",
+                    "value": -0.1452377635767162
+                },
+                {
+                    "name": "Rough",
+                    "value": 0.44773686871904356
+                },
+                {
+                    "name": "Spiritual",
+                    "value": -0.035838421714801665
+                },
+                {
+                    "name": "Feminine",
+                    "value": -0.49441150029690506
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.1449045195542938
+                },
+                {
+                    "name": "Like",
+                    "value": 0.07974940268813888
+                },
+                {
+                    "name": "Interesting",
+                    "value": -0.04904915037252296
+                }
+            ]
+        },
+        {
+            "name": "Peaceful",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.2852293485462983
+                },
+                {
+                    "name": "Active",
+                    "value": 0.016767934813189948
+                },
+                {
+                    "name": "Still",
+                    "value": 0.14695239204143745
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.44484440097016553
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.01129059856383882
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.11000887857037914
+                },
+                {
+                    "name": "Light",
+                    "value": 0.18689984051621986
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.44335176480728833
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.08049707431884373
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.47472735784514647
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.005872415269074393
+                },
+                {
+                    "name": "Like",
+                    "value": 0.02267236986679271
+                },
+                {
+                    "name": "Interesting",
+                    "value": -0.03571977043670717
+                }
+            ]
+        },
+        {
+            "name": "Hard",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": -0.06411823052170072
+                },
+                {
+                    "name": "Active",
+                    "value": 0.28247607232351124
+                },
+                {
+                    "name": "Still",
+                    "value": -0.02824851226254584
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.2862750456933901
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.01129059856383882
+                },
+                {
+                    "name": "Cold",
+                    "value": 0.03616754807457333
+                },
+                {
+                    "name": "Light",
+                    "value": -0.10125283787607456
+                },
+                {
+                    "name": "Rough",
+                    "value": 0.03579938418617092
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.06047933723515427
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.1854244167370665
+                },
+                {
+                    "name": "Cautious",
+                    "value": -0.3520700360904329
+                },
+                {
+                    "name": "Like",
+                    "value": -0.4118678934658336
+                },
+                {
+                    "name": "Interesting",
+                    "value": -0.06718270612042382
+                }
+            ]
+        },
+        {
+            "name": "Cold",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.07652283028940644
+                },
+                {
+                    "name": "Active",
+                    "value": -0.3813955667991463
+                },
+                {
+                    "name": "Still",
+                    "value": 0.3295931923316558
+                },
+                {
+                    "name": "Sad",
+                    "value": 0.25516386440344335
+                },
+                {
+                    "name": "Peaceful",
+                    "value": -0.11000887857037914
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.03616754807457333
+                },
+                {
+                    "name": "Light",
+                    "value": -0.1700428627991648
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.09643198148970912
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.08532521886569347
+                },
+                {
+                    "name": "Feminine",
+                    "value": -0.2264014809841637
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.036574903907269044
+                },
+                {
+                    "name": "Like",
+                    "value": 0.051277459381602185
+                },
+                {
+                    "name": "Interesting",
+                    "value": -0.04979464978382872
+                }
+            ]
+        },
+        {
+            "name": "Light",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": -0.13519793779952294
+                },
+                {
+                    "name": "Active",
+                    "value": 0.2381270877173717
+                },
+                {
+                    "name": "Still",
+                    "value": -0.12554897096082776
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.1452377635767162
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.18689984051621986
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.10125283787607456
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.1700428627991648
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.07955937758054282
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.049765196385264235
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.13373166895060815
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.2425293631225253
+                },
+                {
+                    "name": "Like",
+                    "value": -0.12488818945263529
+                },
+                {
+                    "name": "Interesting",
+                    "value": -0.13129847741089892
+                }
+            ]
+        },
+        {
+            "name": "Rough",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": -0.29439027856232836
+                },
+                {
+                    "name": "Active",
+                    "value": 0.01553306365210532
+                },
+                {
+                    "name": "Still",
+                    "value": -0.21171624926673643
+                },
+                {
+                    "name": "Sad",
+                    "value": 0.44773686871904356
+                },
+                {
+                    "name": "Peaceful",
+                    "value": -0.44335176480728833
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.03579938418617092
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.09643198148970912
+                },
+                {
+                    "name": "Light",
+                    "value": -0.07955937758054282
+                },
+                {
+                    "name": "Spiritual",
+                    "value": -0.1505212465648499
+                },
+                {
+                    "name": "Feminine",
+                    "value": -0.30560446046371703
+                },
+                {
+                    "name": "Cautious",
+                    "value": -0.12793008789035448
+                },
+                {
+                    "name": "Like",
+                    "value": -0.12055057817228516
+                },
+                {
+                    "name": "Interesting",
+                    "value": -0.1296762251013206
+                }
+            ]
+        },
+        {
+            "name": "Spiritual",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.08033192619946791
+                },
+                {
+                    "name": "Active",
+                    "value": -0.13492231324296647
+                },
+                {
+                    "name": "Still",
+                    "value": 0.1570625252322226
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.035838421714801665
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.08049707431884373
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.06047933723515427
+                },
+                {
+                    "name": "Cold",
+                    "value": 0.08532521886569347
+                },
+                {
+                    "name": "Light",
+                    "value": 0.049765196385264235
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.1505212465648499
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.04351484382634413
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.05301276017000286
+                },
+                {
+                    "name": "Like",
+                    "value": -0.007565384330852343
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.0008610756530370893
+                }
+            ]
+        },
+        {
+            "name": "Feminine",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.20447222939096987
+                },
+                {
+                    "name": "Active",
+                    "value": 0.25038653313577197
+                },
+                {
+                    "name": "Still",
+                    "value": -0.010031277159053064
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.49441150029690506
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.47472735784514647
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.1854244167370665
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.2264014809841637
+                },
+                {
+                    "name": "Light",
+                    "value": 0.13373166895060815
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.30560446046371703
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.04351484382634413
+                },
+                {
+                    "name": "Cautious",
+                    "value": -0.09776488454654127
+                },
+                {
+                    "name": "Like",
+                    "value": -0.16248481921761065
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.035190621816634536
+                }
+            ]
+        },
+        {
+            "name": "Cautious",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": -0.10712856279086784
+                },
+                {
+                    "name": "Active",
+                    "value": -0.07148373731240987
+                },
+                {
+                    "name": "Still",
+                    "value": 0.09924813702293618
+                },
+                {
+                    "name": "Sad",
+                    "value": 0.1449045195542938
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.005872415269074393
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.3520700360904329
+                },
+                {
+                    "name": "Cold",
+                    "value": 0.036574903907269044
+                },
+                {
+                    "name": "Light",
+                    "value": 0.2425293631225253
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.12793008789035448
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.05301276017000286
+                },
+                {
+                    "name": "Feminine",
+                    "value": -0.09776488454654127
+                },
+                {
+                    "name": "Like",
+                    "value": 0.15585285707398006
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.02382433793303255
+                }
+            ]
+        },
+        {
+            "name": "Like",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.31803667477296316
+                },
+                {
+                    "name": "Active",
+                    "value": -0.33385725166303953
+                },
+                {
+                    "name": "Still",
+                    "value": 0.1275448393028804
+                },
+                {
+                    "name": "Sad",
+                    "value": 0.07974940268813888
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.02267236986679271
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.4118678934658336
+                },
+                {
+                    "name": "Cold",
+                    "value": 0.051277459381602185
+                },
+                {
+                    "name": "Light",
+                    "value": -0.12488818945263529
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.12055057817228516
+                },
+                {
+                    "name": "Spiritual",
+                    "value": -0.007565384330852343
+                },
+                {
+                    "name": "Feminine",
+                    "value": -0.16248481921761065
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.15585285707398006
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.44593449067283697
+                }
+            ]
+        },
+        {
+            "name": "Interesting",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.29057486869800697
+                },
+                {
+                    "name": "Active",
+                    "value": -0.060903357504302404
+                },
+                {
+                    "name": "Still",
+                    "value": 0.1654732526215394
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.04904915037252296
+                },
+                {
+                    "name": "Peaceful",
+                    "value": -0.03571977043670717
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.06718270612042382
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.04979464978382872
+                },
+                {
+                    "name": "Light",
+                    "value": -0.13129847741089892
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.1296762251013206
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.0008610756530370893
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.035190621816634536
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.02382433793303255
+                },
+                {
+                    "name": "Like",
+                    "value": 0.44593449067283697
+                }
+            ]
+        }
+    ],
+    "Kandinsky Albertina": [
+        {
+            "name": "Positive",
+            "children": [
+                {
+                    "name": "Active",
+                    "value": -0.045262383454302973
+                },
+                {
+                    "name": "Still",
+                    "value": 0.24155617372110846
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.46271716122649126
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.48231664307875605
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.06031917791024045
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.04343756915756837
+                },
+                {
+                    "name": "Light",
+                    "value": 0.10355953583289322
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.43375688711784943
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.13336337526688088
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.28770212297181297
+                },
+                {
+                    "name": "Cautious",
+                    "value": -0.19954350160715328
+                },
+                {
+                    "name": "Like",
+                    "value": 0.2726883023659209
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.3893837623123306
+                }
+            ]
+        },
+        {
+            "name": "Active",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": -0.045262383454302973
+                },
+                {
+                    "name": "Still",
+                    "value": -0.29609660930632753
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.15265582522557616
+                },
+                {
+                    "name": "Peaceful",
+                    "value": -0.24199348962604456
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.1193308098418199
+                },
+                {
+                    "name": "Cold",
+                    "value": 0.0037059925935657005
+                },
+                {
+                    "name": "Light",
+                    "value": 0.02593776786754357
+                },
+                {
+                    "name": "Rough",
+                    "value": 0.05315188904227318
+                },
+                {
+                    "name": "Spiritual",
+                    "value": -0.14610635662057295
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.06929718016140211
+                },
+                {
+                    "name": "Cautious",
+                    "value": -0.024808882686997567
+                },
+                {
+                    "name": "Like",
+                    "value": -0.18792292046024464
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.04859983008636158
+                }
+            ]
+        },
+        {
+            "name": "Still",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.24155617372110846
+                },
+                {
+                    "name": "Active",
+                    "value": -0.29609660930632753
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.13346707172825262
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.39746990750079514
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.11209023384054422
+                },
+                {
+                    "name": "Cold",
+                    "value": 0.20019555202137107
+                },
+                {
+                    "name": "Light",
+                    "value": -0.14164850840141205
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.337141098214087
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.23087337911481087
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.26162690734477095
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.022827425524233034
+                },
+                {
+                    "name": "Like",
+                    "value": -0.09697711872178683
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.34450657118783906
+                }
+            ]
+        },
+        {
+            "name": "Sad",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": -0.46271716122649126
+                },
+                {
+                    "name": "Active",
+                    "value": -0.15265582522557616
+                },
+                {
+                    "name": "Still",
+                    "value": -0.13346707172825262
+                },
+                {
+                    "name": "Peaceful",
+                    "value": -0.2572894038561006
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.2207950773265092
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.13758362558680964
+                },
+                {
+                    "name": "Light",
+                    "value": 0.04817275450472578
+                },
+                {
+                    "name": "Rough",
+                    "value": 0.433529877010625
+                },
+                {
+                    "name": "Spiritual",
+                    "value": -0.08526246997825881
+                },
+                {
+                    "name": "Feminine",
+                    "value": -0.23642875772416505
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.13379145743725826
+                },
+                {
+                    "name": "Like",
+                    "value": -0.01568059930250957
+                },
+                {
+                    "name": "Interesting",
+                    "value": -0.2597988116321317
+                }
+            ]
+        },
+        {
+            "name": "Peaceful",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.48231664307875605
+                },
+                {
+                    "name": "Active",
+                    "value": -0.24199348962604456
+                },
+                {
+                    "name": "Still",
+                    "value": 0.39746990750079514
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.2572894038561006
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.069077087840765
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.055371776379567125
+                },
+                {
+                    "name": "Light",
+                    "value": 0.12988946700847706
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.4442613156143388
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.25206082408031766
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.23656611087248414
+                },
+                {
+                    "name": "Cautious",
+                    "value": -0.07492081385908703
+                },
+                {
+                    "name": "Like",
+                    "value": 0.11419284367448883
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.25988896047466836
+                }
+            ]
+        },
+        {
+            "name": "Hard",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.06031917791024045
+                },
+                {
+                    "name": "Active",
+                    "value": 0.1193308098418199
+                },
+                {
+                    "name": "Still",
+                    "value": 0.11209023384054422
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.2207950773265092
+                },
+                {
+                    "name": "Peaceful",
+                    "value": -0.069077087840765
+                },
+                {
+                    "name": "Cold",
+                    "value": 0.6941562197198895
+                },
+                {
+                    "name": "Light",
+                    "value": -0.5718686332486415
+                },
+                {
+                    "name": "Rough",
+                    "value": 0.05338492788442922
+                },
+                {
+                    "name": "Spiritual",
+                    "value": -0.08338147011703188
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.13081396040032098
+                },
+                {
+                    "name": "Cautious",
+                    "value": -0.4035205491173967
+                },
+                {
+                    "name": "Like",
+                    "value": -0.42149082839805896
+                },
+                {
+                    "name": "Interesting",
+                    "value": -0.003409168968281201
+                }
+            ]
+        },
+        {
+            "name": "Cold",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": -0.04343756915756837
+                },
+                {
+                    "name": "Active",
+                    "value": 0.0037059925935657005
+                },
+                {
+                    "name": "Still",
+                    "value": 0.20019555202137107
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.13758362558680964
+                },
+                {
+                    "name": "Peaceful",
+                    "value": -0.055371776379567125
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.6941562197198895
+                },
+                {
+                    "name": "Light",
+                    "value": -0.5464167882060955
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.02184873500060638
+                },
+                {
+                    "name": "Spiritual",
+                    "value": -0.04396010264502835
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.08177553507748002
+                },
+                {
+                    "name": "Cautious",
+                    "value": -0.33092077339663434
+                },
+                {
+                    "name": "Like",
+                    "value": -0.3564883025841338
+                },
+                {
+                    "name": "Interesting",
+                    "value": -0.02953206125999653
+                }
+            ]
+        },
+        {
+            "name": "Light",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.10355953583289322
+                },
+                {
+                    "name": "Active",
+                    "value": 0.02593776786754357
+                },
+                {
+                    "name": "Still",
+                    "value": -0.14164850840141205
+                },
+                {
+                    "name": "Sad",
+                    "value": 0.04817275450472578
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.12988946700847706
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.5718686332486415
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.5464167882060955
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.1163228606265869
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.09781172626450414
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.029432223618864585
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.3809521585862393
+                },
+                {
+                    "name": "Like",
+                    "value": 0.32311091612683385
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.03550796212397586
+                }
+            ]
+        },
+        {
+            "name": "Rough",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": -0.43375688711784943
+                },
+                {
+                    "name": "Active",
+                    "value": 0.05315188904227318
+                },
+                {
+                    "name": "Still",
+                    "value": -0.337141098214087
+                },
+                {
+                    "name": "Sad",
+                    "value": 0.433529877010625
+                },
+                {
+                    "name": "Peaceful",
+                    "value": -0.4442613156143388
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.05338492788442922
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.02184873500060638
+                },
+                {
+                    "name": "Light",
+                    "value": -0.1163228606265869
+                },
+                {
+                    "name": "Spiritual",
+                    "value": -0.23058548620371236
+                },
+                {
+                    "name": "Feminine",
+                    "value": -0.3532181726716929
+                },
+                {
+                    "name": "Cautious",
+                    "value": -0.08946646160921587
+                },
+                {
+                    "name": "Like",
+                    "value": -0.05577774469556036
+                },
+                {
+                    "name": "Interesting",
+                    "value": -0.2350488815251985
+                }
+            ]
+        },
+        {
+            "name": "Spiritual",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.13336337526688088
+                },
+                {
+                    "name": "Active",
+                    "value": -0.14610635662057295
+                },
+                {
+                    "name": "Still",
+                    "value": 0.23087337911481087
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.08526246997825881
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.25206082408031766
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.08338147011703188
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.04396010264502835
+                },
+                {
+                    "name": "Light",
+                    "value": 0.09781172626450414
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.23058548620371236
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.24404218201248548
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.1008118238214388
+                },
+                {
+                    "name": "Like",
+                    "value": 0.10871589053244932
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.04902640764891622
+                }
+            ]
+        },
+        {
+            "name": "Feminine",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.28770212297181297
+                },
+                {
+                    "name": "Active",
+                    "value": 0.06929718016140211
+                },
+                {
+                    "name": "Still",
+                    "value": 0.26162690734477095
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.23642875772416505
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.23656611087248414
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.13081396040032098
+                },
+                {
+                    "name": "Cold",
+                    "value": 0.08177553507748002
+                },
+                {
+                    "name": "Light",
+                    "value": 0.029432223618864585
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.3532181726716929
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.24404218201248548
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.026758503775009487
+                },
+                {
+                    "name": "Like",
+                    "value": -0.18573573590768203
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.12433104382024844
+                }
+            ]
+        },
+        {
+            "name": "Cautious",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": -0.19954350160715328
+                },
+                {
+                    "name": "Active",
+                    "value": -0.024808882686997567
+                },
+                {
+                    "name": "Still",
+                    "value": 0.022827425524233034
+                },
+                {
+                    "name": "Sad",
+                    "value": 0.13379145743725826
+                },
+                {
+                    "name": "Peaceful",
+                    "value": -0.07492081385908703
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.4035205491173967
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.33092077339663434
+                },
+                {
+                    "name": "Light",
+                    "value": 0.3809521585862393
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.08946646160921587
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.1008118238214388
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.026758503775009487
+                },
+                {
+                    "name": "Like",
+                    "value": 0.06348452363248433
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.02070767097235318
+                }
+            ]
+        },
+        {
+            "name": "Like",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.2726883023659209
+                },
+                {
+                    "name": "Active",
+                    "value": -0.18792292046024464
+                },
+                {
+                    "name": "Still",
+                    "value": -0.09697711872178683
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.01568059930250957
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.11419284367448883
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.42149082839805896
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.3564883025841338
+                },
+                {
+                    "name": "Light",
+                    "value": 0.32311091612683385
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.05577774469556036
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.10871589053244932
+                },
+                {
+                    "name": "Feminine",
+                    "value": -0.18573573590768203
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.06348452363248433
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.3800869731884554
+                }
+            ]
+        },
+        {
+            "name": "Interesting",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.3893837623123306
+                },
+                {
+                    "name": "Active",
+                    "value": 0.04859983008636158
+                },
+                {
+                    "name": "Still",
+                    "value": 0.34450657118783906
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.2597988116321317
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.25988896047466836
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.003409168968281201
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.02953206125999653
+                },
+                {
+                    "name": "Light",
+                    "value": 0.03550796212397586
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.2350488815251985
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.04902640764891622
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.12433104382024844
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.02070767097235318
+                },
+                {
+                    "name": "Like",
+                    "value": 0.3800869731884554
+                }
+            ]
+        }
+    ],
+    "Kandinsky Pompidou": [
+        {
+            "name": "Positive",
+            "children": [
+                {
+                    "name": "Active",
+                    "value": 0.10866125660186
+                },
+                {
+                    "name": "Still",
+                    "value": 0.138030319450382
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.357643727581537
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.320946134802331
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.0665467241336497
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.132526791786404
+                },
+                {
+                    "name": "Light",
+                    "value": 0.0606974774162022
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.409894520615327
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.136263640391341
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.160094841748459
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.0748397608943005
+                },
+                {
+                    "name": "Like",
+                    "value": 0.337284193198677
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.522650295023392
+                }
+            ]
+        },
+        {
+            "name": "Active",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.10866125660186
+                },
+                {
+                    "name": "Still",
+                    "value": -0.386279802728583
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.220300162048623
+                },
+                {
+                    "name": "Peaceful",
+                    "value": -0.0877037049115525
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.185310216765244
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.330455633373025
+                },
+                {
+                    "name": "Light",
+                    "value": 0.331353147133539
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.042769201079517
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.066989332536155
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.21517394644996
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.198727750555839
+                },
+                {
+                    "name": "Like",
+                    "value": 0.0031842295283452
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.0783519043308887
+                }
+            ]
+        },
+        {
+            "name": "Still",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.138030319450382
+                },
+                {
+                    "name": "Active",
+                    "value": -0.386279802728583
+                },
+                {
+                    "name": "Sad",
+                    "value": 0.112210295924463
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.163192993655766
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.242951968102393
+                },
+                {
+                    "name": "Cold",
+                    "value": 0.386492758135722
+                },
+                {
+                    "name": "Light",
+                    "value": -0.299212601468413
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.0686298737363262
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.0017119801864158
+                },
+                {
+                    "name": "Feminine",
+                    "value": -0.100582483090977
+                },
+                {
+                    "name": "Cautious",
+                    "value": -0.167404452873231
+                },
+                {
+                    "name": "Like",
+                    "value": -0.0190576783963205
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.297063067562288
+                }
+            ]
+        },
+        {
+            "name": "Sad",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": -0.357643727581537
+                },
+                {
+                    "name": "Active",
+                    "value": -0.220300162048623
+                },
+                {
+                    "name": "Still",
+                    "value": 0.112210295924463
+                },
+                {
+                    "name": "Peaceful",
+                    "value": -0.294309770586087
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.0411874659841341
+                },
+                {
+                    "name": "Cold",
+                    "value": 0.131141432976363
+                },
+                {
+                    "name": "Light",
+                    "value": -0.118539997090253
+                },
+                {
+                    "name": "Rough",
+                    "value": 0.351933423100115
+                },
+                {
+                    "name": "Spiritual",
+                    "value": -0.0115540409505888
+                },
+                {
+                    "name": "Feminine",
+                    "value": -0.247500232284494
+                },
+                {
+                    "name": "Cautious",
+                    "value": -0.116023854217626
+                },
+                {
+                    "name": "Like",
+                    "value": -0.133710451841036
+                },
+                {
+                    "name": "Interesting",
+                    "value": -0.250487303428817
+                }
+            ]
+        },
+        {
+            "name": "Peaceful",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.320946134802331
+                },
+                {
+                    "name": "Active",
+                    "value": -0.0877037049115525
+                },
+                {
+                    "name": "Still",
+                    "value": 0.163192993655766
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.294309770586087
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.0641704008629779
+                },
+                {
+                    "name": "Cold",
+                    "value": 0.0479018070210321
+                },
+                {
+                    "name": "Light",
+                    "value": -0.0087591021493941
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.33811769741334
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.009288035949343
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.112606736554151
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.172002691839424
+                },
+                {
+                    "name": "Like",
+                    "value": 0.106218387044047
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.218295080374988
+                }
+            ]
+        },
+        {
+            "name": "Hard",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": -0.0665467241336497
+                },
+                {
+                    "name": "Active",
+                    "value": -0.185310216765244
+                },
+                {
+                    "name": "Still",
+                    "value": 0.242951968102393
+                },
+                {
+                    "name": "Sad",
+                    "value": 0.0411874659841341
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.0641704008629779
+                },
+                {
+                    "name": "Cold",
+                    "value": 0.597544934111191
+                },
+                {
+                    "name": "Light",
+                    "value": -0.534604506611034
+                },
+                {
+                    "name": "Rough",
+                    "value": 0.0899846605514843
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.0876773395270223
+                },
+                {
+                    "name": "Feminine",
+                    "value": -0.0813884242990671
+                },
+                {
+                    "name": "Cautious",
+                    "value": -0.495316902900963
+                },
+                {
+                    "name": "Like",
+                    "value": -0.152791639287723
+                },
+                {
+                    "name": "Interesting",
+                    "value": -0.0303760560517862
+                }
+            ]
+        },
+        {
+            "name": "Cold",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": -0.132526791786404
+                },
+                {
+                    "name": "Active",
+                    "value": -0.330455633373025
+                },
+                {
+                    "name": "Still",
+                    "value": 0.386492758135722
+                },
+                {
+                    "name": "Sad",
+                    "value": 0.131141432976363
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.0479018070210321
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.597544934111191
+                },
+                {
+                    "name": "Light",
+                    "value": -0.575156835100382
+                },
+                {
+                    "name": "Rough",
+                    "value": 0.0772453504553384
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.0287471847675194
+                },
+                {
+                    "name": "Feminine",
+                    "value": -0.237447765698792
+                },
+                {
+                    "name": "Cautious",
+                    "value": -0.425338899837833
+                },
+                {
+                    "name": "Like",
+                    "value": -0.163430608605162
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.0207987302207959
+                }
+            ]
+        },
+        {
+            "name": "Light",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.0606974774162022
+                },
+                {
+                    "name": "Active",
+                    "value": 0.331353147133539
+                },
+                {
+                    "name": "Still",
+                    "value": -0.299212601468413
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.118539997090253
+                },
+                {
+                    "name": "Peaceful",
+                    "value": -0.0087591021493941
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.534604506611034
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.575156835100382
+                },
+                {
+                    "name": "Rough",
+                    "value": 0.0274456076772898
+                },
+                {
+                    "name": "Spiritual",
+                    "value": -0.121047978186686
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.25257293924156
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.584560971584218
+                },
+                {
+                    "name": "Like",
+                    "value": 0.0343134371494737
+                },
+                {
+                    "name": "Interesting",
+                    "value": -0.0763307682064195
+                }
+            ]
+        },
+        {
+            "name": "Rough",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": -0.409894520615327
+                },
+                {
+                    "name": "Active",
+                    "value": -0.042769201079517
+                },
+                {
+                    "name": "Still",
+                    "value": -0.0686298737363262
+                },
+                {
+                    "name": "Sad",
+                    "value": 0.351933423100115
+                },
+                {
+                    "name": "Peaceful",
+                    "value": -0.33811769741334
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.0899846605514843
+                },
+                {
+                    "name": "Cold",
+                    "value": 0.0772453504553384
+                },
+                {
+                    "name": "Light",
+                    "value": 0.0274456076772898
+                },
+                {
+                    "name": "Spiritual",
+                    "value": -0.141178792292278
+                },
+                {
+                    "name": "Feminine",
+                    "value": -0.208924161166912
+                },
+                {
+                    "name": "Cautious",
+                    "value": -0.128848791283408
+                },
+                {
+                    "name": "Like",
+                    "value": -0.153409905863971
+                },
+                {
+                    "name": "Interesting",
+                    "value": -0.367108955684217
+                }
+            ]
+        },
+        {
+            "name": "Spiritual",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.136263640391341
+                },
+                {
+                    "name": "Active",
+                    "value": 0.066989332536155
+                },
+                {
+                    "name": "Still",
+                    "value": 0.0017119801864158
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.0115540409505888
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.009288035949343
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.0876773395270223
+                },
+                {
+                    "name": "Cold",
+                    "value": 0.0287471847675194
+                },
+                {
+                    "name": "Light",
+                    "value": -0.121047978186686
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.141178792292278
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.0731120829619706
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.0024426185248469
+                },
+                {
+                    "name": "Like",
+                    "value": 0.0137995979153399
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.0815449029809104
+                }
+            ]
+        },
+        {
+            "name": "Feminine",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.160094841748459
+                },
+                {
+                    "name": "Active",
+                    "value": 0.21517394644996
+                },
+                {
+                    "name": "Still",
+                    "value": -0.100582483090977
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.247500232284494
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.112606736554151
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.0813884242990671
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.237447765698792
+                },
+                {
+                    "name": "Light",
+                    "value": 0.25257293924156
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.208924161166912
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.0731120829619706
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.315693923280144
+                },
+                {
+                    "name": "Like",
+                    "value": -0.0753052404299573
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.0802225330157288
+                }
+            ]
+        },
+        {
+            "name": "Cautious",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.0748397608943005
+                },
+                {
+                    "name": "Active",
+                    "value": 0.198727750555839
+                },
+                {
+                    "name": "Still",
+                    "value": -0.167404452873231
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.116023854217626
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.172002691839424
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.495316902900963
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.425338899837833
+                },
+                {
+                    "name": "Light",
+                    "value": 0.584560971584218
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.128848791283408
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.0024426185248469
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.315693923280144
+                },
+                {
+                    "name": "Like",
+                    "value": -0.0367206853677902
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.0275873167299604
+                }
+            ]
+        },
+        {
+            "name": "Like",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.337284193198677
+                },
+                {
+                    "name": "Active",
+                    "value": 0.0031842295283452
+                },
+                {
+                    "name": "Still",
+                    "value": -0.0190576783963205
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.133710451841036
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.106218387044047
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.152791639287723
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.163430608605162
+                },
+                {
+                    "name": "Light",
+                    "value": 0.0343134371494737
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.153409905863971
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.0137995979153399
+                },
+                {
+                    "name": "Feminine",
+                    "value": -0.0753052404299573
+                },
+                {
+                    "name": "Cautious",
+                    "value": -0.0367206853677902
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.462403001039867
+                }
+            ]
+        },
+        {
+            "name": "Interesting",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.522650295023392
+                },
+                {
+                    "name": "Active",
+                    "value": 0.0783519043308887
+                },
+                {
+                    "name": "Still",
+                    "value": 0.297063067562288
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.250487303428817
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.218295080374988
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.0303760560517862
+                },
+                {
+                    "name": "Cold",
+                    "value": 0.0207987302207959
+                },
+                {
+                    "name": "Light",
+                    "value": -0.0763307682064195
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.367108955684217
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.0815449029809104
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.0802225330157288
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.0275873167299604
+                },
+                {
+                    "name": "Like",
+                    "value": 0.462403001039867
+                }
+            ]
+        }
+    ],
+    "Mortensen Pink": [
+        {
+            "name": "Positive",
+            "children": [
+                {
+                    "name": "Active",
+                    "value": -0.06775286549804008
+                },
+                {
+                    "name": "Still",
+                    "value": 0.20463009613310365
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.30679589936145996
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.3393979019219574
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.1255054431478976
+                },
+                {
+                    "name": "Cold",
+                    "value": 0.0021898838512871385
+                },
+                {
+                    "name": "Light",
+                    "value": -0.044230374187042766
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.37030050613253557
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.1477605545236823
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.1051743570847739
+                },
+                {
+                    "name": "Cautious",
+                    "value": -0.0980007580303218
+                },
+                {
+                    "name": "Like",
+                    "value": 0.4277033483085533
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.41399768082643734
+                }
+            ]
+        },
+        {
+            "name": "Active",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": -0.06775286549804008
+                },
+                {
+                    "name": "Still",
+                    "value": -0.12879979509151124
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.32040800166251454
+                },
+                {
+                    "name": "Peaceful",
+                    "value": -0.0676172168098096
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.2699007194066617
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.05529087680310136
+                },
+                {
+                    "name": "Light",
+                    "value": -0.13665592669612572
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.007468944294699354
+                },
+                {
+                    "name": "Spiritual",
+                    "value": -0.018691464377961008
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.3240467366517184
+                },
+                {
+                    "name": "Cautious",
+                    "value": -0.16350101363132852
+                },
+                {
+                    "name": "Like",
+                    "value": -0.4585152034871211
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.07421280090142611
+                }
+            ]
+        },
+        {
+            "name": "Still",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.20463009613310365
+                },
+                {
+                    "name": "Active",
+                    "value": -0.12879979509151124
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.06328224167725591
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.15336850590635198
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.035856076786807425
+                },
+                {
+                    "name": "Cold",
+                    "value": 0.16132656217582456
+                },
+                {
+                    "name": "Light",
+                    "value": -0.1523556974436775
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.36433558677754235
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.04602591685917232
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.2869202859383549
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.09888922618446402
+                },
+                {
+                    "name": "Like",
+                    "value": 0.04718475222295647
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.3488746110410764
+                }
+            ]
+        },
+        {
+            "name": "Sad",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": -0.30679589936145996
+                },
+                {
+                    "name": "Active",
+                    "value": -0.32040800166251454
+                },
+                {
+                    "name": "Still",
+                    "value": -0.06328224167725591
+                },
+                {
+                    "name": "Peaceful",
+                    "value": -0.2713666495742342
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.3088142911559564
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.05799730905604717
+                },
+                {
+                    "name": "Light",
+                    "value": 0.21751591046162322
+                },
+                {
+                    "name": "Rough",
+                    "value": 0.27245877100229643
+                },
+                {
+                    "name": "Spiritual",
+                    "value": -0.12392096751261784
+                },
+                {
+                    "name": "Feminine",
+                    "value": -0.3096080854280113
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.24717360683186457
+                },
+                {
+                    "name": "Like",
+                    "value": 0.11677703929726817
+                },
+                {
+                    "name": "Interesting",
+                    "value": -0.07609577053220362
+                }
+            ]
+        },
+        {
+            "name": "Peaceful",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.3393979019219574
+                },
+                {
+                    "name": "Active",
+                    "value": -0.0676172168098096
+                },
+                {
+                    "name": "Still",
+                    "value": 0.15336850590635198
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.2713666495742342
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.06428909677024315
+                },
+                {
+                    "name": "Cold",
+                    "value": 0.03620588068264901
+                },
+                {
+                    "name": "Light",
+                    "value": -0.017345419287735895
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.38415633465988686
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.14522541453022364
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.23875312166566004
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.09424658903557874
+                },
+                {
+                    "name": "Like",
+                    "value": 0.07347260588542977
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.07836510327782424
+                }
+            ]
+        },
+        {
+            "name": "Hard",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.1255054431478976
+                },
+                {
+                    "name": "Active",
+                    "value": 0.2699007194066617
+                },
+                {
+                    "name": "Still",
+                    "value": 0.035856076786807425
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.3088142911559564
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.06428909677024315
+                },
+                {
+                    "name": "Cold",
+                    "value": 0.38234310657013215
+                },
+                {
+                    "name": "Light",
+                    "value": -0.3718889373413822
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.000773719964026258
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.12847377816974365
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.07194081770548087
+                },
+                {
+                    "name": "Cautious",
+                    "value": -0.3337799367053918
+                },
+                {
+                    "name": "Like",
+                    "value": -0.2963599603567483
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.09445911357206507
+                }
+            ]
+        },
+        {
+            "name": "Cold",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.0021898838512871385
+                },
+                {
+                    "name": "Active",
+                    "value": -0.05529087680310136
+                },
+                {
+                    "name": "Still",
+                    "value": 0.16132656217582456
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.05799730905604717
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.03620588068264901
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.38234310657013215
+                },
+                {
+                    "name": "Light",
+                    "value": -0.18017119674147133
+                },
+                {
+                    "name": "Rough",
+                    "value": 0.018787041333384713
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.11317754018700675
+                },
+                {
+                    "name": "Feminine",
+                    "value": -0.0636182616824982
+                },
+                {
+                    "name": "Cautious",
+                    "value": -0.18063340812042164
+                },
+                {
+                    "name": "Like",
+                    "value": -0.15380639376060834
+                },
+                {
+                    "name": "Interesting",
+                    "value": -0.06174676231497157
+                }
+            ]
+        },
+        {
+            "name": "Light",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": -0.044230374187042766
+                },
+                {
+                    "name": "Active",
+                    "value": -0.13665592669612572
+                },
+                {
+                    "name": "Still",
+                    "value": -0.1523556974436775
+                },
+                {
+                    "name": "Sad",
+                    "value": 0.21751591046162322
+                },
+                {
+                    "name": "Peaceful",
+                    "value": -0.017345419287735895
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.3718889373413822
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.18017119674147133
+                },
+                {
+                    "name": "Rough",
+                    "value": 0.0025997451334800583
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.08792491281471945
+                },
+                {
+                    "name": "Feminine",
+                    "value": -0.06245881637176281
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.45881266477126675
+                },
+                {
+                    "name": "Like",
+                    "value": 0.3153541922283609
+                },
+                {
+                    "name": "Interesting",
+                    "value": -0.057212942112139974
+                }
+            ]
+        },
+        {
+            "name": "Rough",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": -0.37030050613253557
+                },
+                {
+                    "name": "Active",
+                    "value": -0.007468944294699354
+                },
+                {
+                    "name": "Still",
+                    "value": -0.36433558677754235
+                },
+                {
+                    "name": "Sad",
+                    "value": 0.27245877100229643
+                },
+                {
+                    "name": "Peaceful",
+                    "value": -0.38415633465988686
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.000773719964026258
+                },
+                {
+                    "name": "Cold",
+                    "value": 0.018787041333384713
+                },
+                {
+                    "name": "Light",
+                    "value": 0.0025997451334800583
+                },
+                {
+                    "name": "Spiritual",
+                    "value": -0.19624704788166147
+                },
+                {
+                    "name": "Feminine",
+                    "value": -0.378785593466393
+                },
+                {
+                    "name": "Cautious",
+                    "value": -0.15080958270705194
+                },
+                {
+                    "name": "Like",
+                    "value": -0.13253262393821622
+                },
+                {
+                    "name": "Interesting",
+                    "value": -0.2690316453635691
+                }
+            ]
+        },
+        {
+            "name": "Spiritual",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.1477605545236823
+                },
+                {
+                    "name": "Active",
+                    "value": -0.018691464377961008
+                },
+                {
+                    "name": "Still",
+                    "value": 0.04602591685917232
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.12392096751261784
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.14522541453022364
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.12847377816974365
+                },
+                {
+                    "name": "Cold",
+                    "value": 0.11317754018700675
+                },
+                {
+                    "name": "Light",
+                    "value": 0.08792491281471945
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.19624704788166147
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.017439818279088255
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.10729669578551876
+                },
+                {
+                    "name": "Like",
+                    "value": 0.07516043870039436
+                },
+                {
+                    "name": "Interesting",
+                    "value": -0.013626680638906185
+                }
+            ]
+        },
+        {
+            "name": "Feminine",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.1051743570847739
+                },
+                {
+                    "name": "Active",
+                    "value": 0.3240467366517184
+                },
+                {
+                    "name": "Still",
+                    "value": 0.2869202859383549
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.3096080854280113
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.23875312166566004
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.07194081770548087
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.0636182616824982
+                },
+                {
+                    "name": "Light",
+                    "value": -0.06245881637176281
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.378785593466393
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.017439818279088255
+                },
+                {
+                    "name": "Cautious",
+                    "value": -0.05783123930883682
+                },
+                {
+                    "name": "Like",
+                    "value": -0.2942423097314732
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.1606666033033423
+                }
+            ]
+        },
+        {
+            "name": "Cautious",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": -0.0980007580303218
+                },
+                {
+                    "name": "Active",
+                    "value": -0.16350101363132852
+                },
+                {
+                    "name": "Still",
+                    "value": 0.09888922618446402
+                },
+                {
+                    "name": "Sad",
+                    "value": 0.24717360683186457
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.09424658903557874
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.3337799367053918
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.18063340812042164
+                },
+                {
+                    "name": "Light",
+                    "value": 0.45881266477126675
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.15080958270705194
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.10729669578551876
+                },
+                {
+                    "name": "Feminine",
+                    "value": -0.05783123930883682
+                },
+                {
+                    "name": "Like",
+                    "value": 0.2992542119608973
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.09293613781970654
+                }
+            ]
+        },
+        {
+            "name": "Like",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.4277033483085533
+                },
+                {
+                    "name": "Active",
+                    "value": -0.4585152034871211
+                },
+                {
+                    "name": "Still",
+                    "value": 0.04718475222295647
+                },
+                {
+                    "name": "Sad",
+                    "value": 0.11677703929726817
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.07347260588542977
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.2963599603567483
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.15380639376060834
+                },
+                {
+                    "name": "Light",
+                    "value": 0.3153541922283609
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.13253262393821622
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.07516043870039436
+                },
+                {
+                    "name": "Feminine",
+                    "value": -0.2942423097314732
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.2992542119608973
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.3557381970033407
+                }
+            ]
+        },
+        {
+            "name": "Interesting",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.41399768082643734
+                },
+                {
+                    "name": "Active",
+                    "value": 0.07421280090142611
+                },
+                {
+                    "name": "Still",
+                    "value": 0.3488746110410764
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.07609577053220362
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.07836510327782424
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.09445911357206507
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.06174676231497157
+                },
+                {
+                    "name": "Light",
+                    "value": -0.057212942112139974
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.2690316453635691
+                },
+                {
+                    "name": "Spiritual",
+                    "value": -0.013626680638906185
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.1606666033033423
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.09293613781970654
+                },
+                {
+                    "name": "Like",
+                    "value": 0.3557381970033407
+                }
+            ]
+        }
+    ],
+    "Mortensen Orange": [
+        {
+            "name": "Positive",
+            "children": [
+                {
+                    "name": "Active",
+                    "value": 0.019729116328615858
+                },
+                {
+                    "name": "Still",
+                    "value": 0.3844514291339402
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.431412819271012
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.4001107745174624
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.008524064730060546
+                },
+                {
+                    "name": "Cold",
+                    "value": 0.03148696850061752
+                },
+                {
+                    "name": "Light",
+                    "value": 0.09331433292594649
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.3871542704481692
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.0018201180094451032
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.22652355121815415
+                },
+                {
+                    "name": "Cautious",
+                    "value": -0.1309035404439767
+                },
+                {
+                    "name": "Like",
+                    "value": 0.23597254692010927
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.31154782430790257
+                }
+            ]
+        },
+        {
+            "name": "Active",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.019729116328615858
+                },
+                {
+                    "name": "Still",
+                    "value": -0.08959754008780846
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.23453480445765107
+                },
+                {
+                    "name": "Peaceful",
+                    "value": -0.03813924930919463
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.23334086932212444
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.07266621783755162
+                },
+                {
+                    "name": "Light",
+                    "value": 0.05813935779194544
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.060975487292744164
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.08464969928062567
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.200775683260827
+                },
+                {
+                    "name": "Cautious",
+                    "value": -0.04298203156245755
+                },
+                {
+                    "name": "Like",
+                    "value": -0.24146595923470132
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.079103854303097
+                }
+            ]
+        },
+        {
+            "name": "Still",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.3844514291339402
+                },
+                {
+                    "name": "Active",
+                    "value": -0.08959754008780846
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.1229072489173222
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.3563683474683175
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.1247079632872495
+                },
+                {
+                    "name": "Cold",
+                    "value": 0.22063326527526125
+                },
+                {
+                    "name": "Light",
+                    "value": -0.10940304630784328
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.35136387824616677
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.05552421274831433
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.2215553987774004
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.06363600407550522
+                },
+                {
+                    "name": "Like",
+                    "value": 0.09114392157588266
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.28585312546567065
+                }
+            ]
+        },
+        {
+            "name": "Sad",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": -0.431412819271012
+                },
+                {
+                    "name": "Active",
+                    "value": -0.23453480445765107
+                },
+                {
+                    "name": "Still",
+                    "value": -0.1229072489173222
+                },
+                {
+                    "name": "Peaceful",
+                    "value": -0.32140180976346844
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.23007248956573043
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.164178960669801
+                },
+                {
+                    "name": "Light",
+                    "value": -0.01160055138073191
+                },
+                {
+                    "name": "Rough",
+                    "value": 0.4361076339533787
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.03203344734291599
+                },
+                {
+                    "name": "Feminine",
+                    "value": -0.30590231499731163
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.19763389724461447
+                },
+                {
+                    "name": "Like",
+                    "value": -0.05732777398324552
+                },
+                {
+                    "name": "Interesting",
+                    "value": -0.1901486204376038
+                }
+            ]
+        },
+        {
+            "name": "Peaceful",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.4001107745174624
+                },
+                {
+                    "name": "Active",
+                    "value": -0.03813924930919463
+                },
+                {
+                    "name": "Still",
+                    "value": 0.3563683474683175
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.32140180976346844
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.03449111852742138
+                },
+                {
+                    "name": "Cold",
+                    "value": 0.11325993983468148
+                },
+                {
+                    "name": "Light",
+                    "value": 0.19005531052521105
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.5512195977992578
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.06770854041430464
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.2543903877879831
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.21277768448532094
+                },
+                {
+                    "name": "Like",
+                    "value": 0.28035071370218806
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.2527617406068124
+                }
+            ]
+        },
+        {
+            "name": "Hard",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.008524064730060546
+                },
+                {
+                    "name": "Active",
+                    "value": 0.23334086932212444
+                },
+                {
+                    "name": "Still",
+                    "value": 0.1247079632872495
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.23007248956573043
+                },
+                {
+                    "name": "Peaceful",
+                    "value": -0.03449111852742138
+                },
+                {
+                    "name": "Cold",
+                    "value": 0.23990445945448996
+                },
+                {
+                    "name": "Light",
+                    "value": -0.2204347751737903
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.01775961946379348
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.1027133907805629
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.1434204990248384
+                },
+                {
+                    "name": "Cautious",
+                    "value": -0.2253660741686772
+                },
+                {
+                    "name": "Like",
+                    "value": -0.2945246796189378
+                },
+                {
+                    "name": "Interesting",
+                    "value": -0.0015082672309482718
+                }
+            ]
+        },
+        {
+            "name": "Cold",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.03148696850061752
+                },
+                {
+                    "name": "Active",
+                    "value": -0.07266621783755162
+                },
+                {
+                    "name": "Still",
+                    "value": 0.22063326527526125
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.164178960669801
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.11325993983468148
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.23990445945448996
+                },
+                {
+                    "name": "Light",
+                    "value": -0.29186426353788286
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.1357719162082772
+                },
+                {
+                    "name": "Spiritual",
+                    "value": -0.006427613013013828
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.1565037601822472
+                },
+                {
+                    "name": "Cautious",
+                    "value": -0.20756386699306023
+                },
+                {
+                    "name": "Like",
+                    "value": -0.12273932638948498
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.08586526968712604
+                }
+            ]
+        },
+        {
+            "name": "Light",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.09331433292594649
+                },
+                {
+                    "name": "Active",
+                    "value": 0.05813935779194544
+                },
+                {
+                    "name": "Still",
+                    "value": -0.10940304630784328
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.01160055138073191
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.19005531052521105
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.2204347751737903
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.29186426353788286
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.12794880224282415
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.06267840817193389
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.020344791049311632
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.3467805467078013
+                },
+                {
+                    "name": "Like",
+                    "value": 0.12380544603794766
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.04488268943841569
+                }
+            ]
+        },
+        {
+            "name": "Rough",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": -0.3871542704481692
+                },
+                {
+                    "name": "Active",
+                    "value": -0.060975487292744164
+                },
+                {
+                    "name": "Still",
+                    "value": -0.35136387824616677
+                },
+                {
+                    "name": "Sad",
+                    "value": 0.4361076339533787
+                },
+                {
+                    "name": "Peaceful",
+                    "value": -0.5512195977992578
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.01775961946379348
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.1357719162082772
+                },
+                {
+                    "name": "Light",
+                    "value": -0.12794880224282415
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.020556497491748777
+                },
+                {
+                    "name": "Feminine",
+                    "value": -0.35071938722735946
+                },
+                {
+                    "name": "Cautious",
+                    "value": -0.16375261260307666
+                },
+                {
+                    "name": "Like",
+                    "value": -0.24205892229064452
+                },
+                {
+                    "name": "Interesting",
+                    "value": -0.292422086678035
+                }
+            ]
+        },
+        {
+            "name": "Spiritual",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.0018201180094451032
+                },
+                {
+                    "name": "Active",
+                    "value": 0.08464969928062567
+                },
+                {
+                    "name": "Still",
+                    "value": 0.05552421274831433
+                },
+                {
+                    "name": "Sad",
+                    "value": 0.03203344734291599
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.06770854041430464
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.1027133907805629
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.006427613013013828
+                },
+                {
+                    "name": "Light",
+                    "value": 0.06267840817193389
+                },
+                {
+                    "name": "Rough",
+                    "value": 0.020556497491748777
+                },
+                {
+                    "name": "Feminine",
+                    "value": -0.01569836286212407
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.035894616850456244
+                },
+                {
+                    "name": "Like",
+                    "value": 0.02608124144850006
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.07872709511802652
+                }
+            ]
+        },
+        {
+            "name": "Feminine",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.22652355121815415
+                },
+                {
+                    "name": "Active",
+                    "value": 0.200775683260827
+                },
+                {
+                    "name": "Still",
+                    "value": 0.2215553987774004
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.30590231499731163
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.2543903877879831
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.1434204990248384
+                },
+                {
+                    "name": "Cold",
+                    "value": 0.1565037601822472
+                },
+                {
+                    "name": "Light",
+                    "value": 0.020344791049311632
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.35071938722735946
+                },
+                {
+                    "name": "Spiritual",
+                    "value": -0.01569836286212407
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.03272292700269572
+                },
+                {
+                    "name": "Like",
+                    "value": -0.05929052418055284
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.15808218818999686
+                }
+            ]
+        },
+        {
+            "name": "Cautious",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": -0.1309035404439767
+                },
+                {
+                    "name": "Active",
+                    "value": -0.04298203156245755
+                },
+                {
+                    "name": "Still",
+                    "value": 0.06363600407550522
+                },
+                {
+                    "name": "Sad",
+                    "value": 0.19763389724461447
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.21277768448532094
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.2253660741686772
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.20756386699306023
+                },
+                {
+                    "name": "Light",
+                    "value": 0.3467805467078013
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.16375261260307666
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.035894616850456244
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.03272292700269572
+                },
+                {
+                    "name": "Like",
+                    "value": 0.15063402801523113
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.08900514604525052
+                }
+            ]
+        },
+        {
+            "name": "Like",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.23597254692010927
+                },
+                {
+                    "name": "Active",
+                    "value": -0.24146595923470132
+                },
+                {
+                    "name": "Still",
+                    "value": 0.09114392157588266
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.05732777398324552
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.28035071370218806
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.2945246796189378
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.12273932638948498
+                },
+                {
+                    "name": "Light",
+                    "value": 0.12380544603794766
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.24205892229064452
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.02608124144850006
+                },
+                {
+                    "name": "Feminine",
+                    "value": -0.05929052418055284
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.15063402801523113
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.40710656723194194
+                }
+            ]
+        },
+        {
+            "name": "Interesting",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.31154782430790257
+                },
+                {
+                    "name": "Active",
+                    "value": 0.079103854303097
+                },
+                {
+                    "name": "Still",
+                    "value": 0.28585312546567065
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.1901486204376038
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.2527617406068124
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.0015082672309482718
+                },
+                {
+                    "name": "Cold",
+                    "value": 0.08586526968712604
+                },
+                {
+                    "name": "Light",
+                    "value": 0.04488268943841569
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.292422086678035
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.07872709511802652
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.15808218818999686
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.08900514604525052
+                },
+                {
+                    "name": "Like",
+                    "value": 0.40710656723194194
+                }
+            ]
+        }
+    ],
+    "Miro": [
+        {
+            "name": "Positive",
+            "children": [
+                {
+                    "name": "Active",
+                    "value": -0.07529968914743339
+                },
+                {
+                    "name": "Still",
+                    "value": 0.24665638358031852
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.3877459713013666
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.4256823260743058
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.11041494105301625
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.1906811531911063
+                },
+                {
+                    "name": "Light",
+                    "value": -0.006704060254438505
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.37687473040397007
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.13870018251501806
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.22846927347201937
+                },
+                {
+                    "name": "Cautious",
+                    "value": -0.21158343133265523
+                },
+                {
+                    "name": "Like",
+                    "value": 0.36074144311244005
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.39314785584730927
+                }
+            ]
+        },
+        {
+            "name": "Active",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": -0.07529968914743339
+                },
+                {
+                    "name": "Still",
+                    "value": -0.2891562639470454
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.1512298779523648
+                },
+                {
+                    "name": "Peaceful",
+                    "value": -0.09693527515581696
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.10123812384723005
+                },
+                {
+                    "name": "Cold",
+                    "value": 0.05320774242203562
+                },
+                {
+                    "name": "Light",
+                    "value": -0.0818263562279909
+                },
+                {
+                    "name": "Rough",
+                    "value": 0.051199979295018475
+                },
+                {
+                    "name": "Spiritual",
+                    "value": -0.018996370903971944
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.3873248139684968
+                },
+                {
+                    "name": "Cautious",
+                    "value": -0.1410091878534314
+                },
+                {
+                    "name": "Like",
+                    "value": -0.339728607471773
+                },
+                {
+                    "name": "Interesting",
+                    "value": -0.007547409334691233
+                }
+            ]
+        },
+        {
+            "name": "Still",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.24665638358031852
+                },
+                {
+                    "name": "Active",
+                    "value": -0.2891562639470454
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.03164071705954434
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.11386598302897981
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.1829838687104865
+                },
+                {
+                    "name": "Cold",
+                    "value": 0.1316581628507931
+                },
+                {
+                    "name": "Light",
+                    "value": -0.17462220206005777
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.16692161082833748
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.06401971938303325
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.023246061739653903
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.030703939587221098
+                },
+                {
+                    "name": "Like",
+                    "value": 0.002131600492974718
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.27273948103963536
+                }
+            ]
+        },
+        {
+            "name": "Sad",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": -0.3877459713013666
+                },
+                {
+                    "name": "Active",
+                    "value": -0.1512298779523648
+                },
+                {
+                    "name": "Still",
+                    "value": -0.03164071705954434
+                },
+                {
+                    "name": "Peaceful",
+                    "value": -0.4059192779542862
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.1488683157000056
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.11482421487056903
+                },
+                {
+                    "name": "Light",
+                    "value": 0.09266084403063132
+                },
+                {
+                    "name": "Rough",
+                    "value": 0.5474376929176206
+                },
+                {
+                    "name": "Spiritual",
+                    "value": -0.05140392815155316
+                },
+                {
+                    "name": "Feminine",
+                    "value": -0.2632559431902524
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.21464719831527776
+                },
+                {
+                    "name": "Like",
+                    "value": -0.08749920054521879
+                },
+                {
+                    "name": "Interesting",
+                    "value": -0.19545862911973833
+                }
+            ]
+        },
+        {
+            "name": "Peaceful",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.4256823260743058
+                },
+                {
+                    "name": "Active",
+                    "value": -0.09693527515581696
+                },
+                {
+                    "name": "Still",
+                    "value": 0.11386598302897981
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.4059192779542862
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.05680903410432687
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.08653660257260702
+                },
+                {
+                    "name": "Light",
+                    "value": 0.0970047763476908
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.5299239704685385
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.15185893019964927
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.28808845144992756
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.04860217222897794
+                },
+                {
+                    "name": "Like",
+                    "value": 0.23898969190193084
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.1397492441699511
+                }
+            ]
+        },
+        {
+            "name": "Hard",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": -0.11041494105301625
+                },
+                {
+                    "name": "Active",
+                    "value": 0.10123812384723005
+                },
+                {
+                    "name": "Still",
+                    "value": 0.1829838687104865
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.1488683157000056
+                },
+                {
+                    "name": "Peaceful",
+                    "value": -0.05680903410432687
+                },
+                {
+                    "name": "Cold",
+                    "value": 0.30740411418758756
+                },
+                {
+                    "name": "Light",
+                    "value": -0.4071926860769202
+                },
+                {
+                    "name": "Rough",
+                    "value": 0.016915785593192505
+                },
+                {
+                    "name": "Spiritual",
+                    "value": -0.05625380703334393
+                },
+                {
+                    "name": "Feminine",
+                    "value": -0.05831771132662564
+                },
+                {
+                    "name": "Cautious",
+                    "value": -0.23124695285861266
+                },
+                {
+                    "name": "Like",
+                    "value": -0.32309099057924096
+                },
+                {
+                    "name": "Interesting",
+                    "value": -0.14582451358986265
+                }
+            ]
+        },
+        {
+            "name": "Cold",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": -0.1906811531911063
+                },
+                {
+                    "name": "Active",
+                    "value": 0.05320774242203562
+                },
+                {
+                    "name": "Still",
+                    "value": 0.1316581628507931
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.11482421487056903
+                },
+                {
+                    "name": "Peaceful",
+                    "value": -0.08653660257260702
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.30740411418758756
+                },
+                {
+                    "name": "Light",
+                    "value": -0.3509053004422727
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.05784345669575643
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.0781836175042571
+                },
+                {
+                    "name": "Feminine",
+                    "value": -0.047364424132983786
+                },
+                {
+                    "name": "Cautious",
+                    "value": -0.22619598304336883
+                },
+                {
+                    "name": "Like",
+                    "value": -0.30497945954955175
+                },
+                {
+                    "name": "Interesting",
+                    "value": -0.12381557772705468
+                }
+            ]
+        },
+        {
+            "name": "Light",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": -0.006704060254438505
+                },
+                {
+                    "name": "Active",
+                    "value": -0.0818263562279909
+                },
+                {
+                    "name": "Still",
+                    "value": -0.17462220206005777
+                },
+                {
+                    "name": "Sad",
+                    "value": 0.09266084403063132
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.0970047763476908
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.4071926860769202
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.3509053004422727
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.028806821786707158
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.017966796543529093
+                },
+                {
+                    "name": "Feminine",
+                    "value": -0.022898489251608752
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.3920175757657664
+                },
+                {
+                    "name": "Like",
+                    "value": 0.263784316393263
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.10376685811224742
+                }
+            ]
+        },
+        {
+            "name": "Rough",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": -0.37687473040397007
+                },
+                {
+                    "name": "Active",
+                    "value": 0.051199979295018475
+                },
+                {
+                    "name": "Still",
+                    "value": -0.16692161082833748
+                },
+                {
+                    "name": "Sad",
+                    "value": 0.5474376929176206
+                },
+                {
+                    "name": "Peaceful",
+                    "value": -0.5299239704685385
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.016915785593192505
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.05784345669575643
+                },
+                {
+                    "name": "Light",
+                    "value": -0.028806821786707158
+                },
+                {
+                    "name": "Spiritual",
+                    "value": -0.14312877016542397
+                },
+                {
+                    "name": "Feminine",
+                    "value": -0.20783637302169075
+                },
+                {
+                    "name": "Cautious",
+                    "value": -0.03620226522403185
+                },
+                {
+                    "name": "Like",
+                    "value": -0.2612322957101818
+                },
+                {
+                    "name": "Interesting",
+                    "value": -0.17246196406367223
+                }
+            ]
+        },
+        {
+            "name": "Spiritual",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.13870018251501806
+                },
+                {
+                    "name": "Active",
+                    "value": -0.018996370903971944
+                },
+                {
+                    "name": "Still",
+                    "value": 0.06401971938303325
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.05140392815155316
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.15185893019964927
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.05625380703334393
+                },
+                {
+                    "name": "Cold",
+                    "value": 0.0781836175042571
+                },
+                {
+                    "name": "Light",
+                    "value": 0.017966796543529093
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.14312877016542397
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.22429822654790824
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.08042639405446608
+                },
+                {
+                    "name": "Like",
+                    "value": 0.05424414366972905
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.11377642069239838
+                }
+            ]
+        },
+        {
+            "name": "Feminine",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.22846927347201937
+                },
+                {
+                    "name": "Active",
+                    "value": 0.3873248139684968
+                },
+                {
+                    "name": "Still",
+                    "value": 0.023246061739653903
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.2632559431902524
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.28808845144992756
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.05831771132662564
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.047364424132983786
+                },
+                {
+                    "name": "Light",
+                    "value": -0.022898489251608752
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.20783637302169075
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.22429822654790824
+                },
+                {
+                    "name": "Cautious",
+                    "value": -0.004782538424795011
+                },
+                {
+                    "name": "Like",
+                    "value": -0.2660506913563809
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.027709778842402073
+                }
+            ]
+        },
+        {
+            "name": "Cautious",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": -0.21158343133265523
+                },
+                {
+                    "name": "Active",
+                    "value": -0.1410091878534314
+                },
+                {
+                    "name": "Still",
+                    "value": 0.030703939587221098
+                },
+                {
+                    "name": "Sad",
+                    "value": 0.21464719831527776
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.04860217222897794
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.23124695285861266
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.22619598304336883
+                },
+                {
+                    "name": "Light",
+                    "value": 0.3920175757657664
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.03620226522403185
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.08042639405446608
+                },
+                {
+                    "name": "Feminine",
+                    "value": -0.004782538424795011
+                },
+                {
+                    "name": "Like",
+                    "value": 0.17683317714651506
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.03159880735951123
+                }
+            ]
+        },
+        {
+            "name": "Like",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.36074144311244005
+                },
+                {
+                    "name": "Active",
+                    "value": -0.339728607471773
+                },
+                {
+                    "name": "Still",
+                    "value": 0.002131600492974718
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.08749920054521879
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.23898969190193084
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.32309099057924096
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.30497945954955175
+                },
+                {
+                    "name": "Light",
+                    "value": 0.263784316393263
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.2612322957101818
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.05424414366972905
+                },
+                {
+                    "name": "Feminine",
+                    "value": -0.2660506913563809
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.17683317714651506
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.49825188688621963
+                }
+            ]
+        },
+        {
+            "name": "Interesting",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.39314785584730927
+                },
+                {
+                    "name": "Active",
+                    "value": -0.007547409334691233
+                },
+                {
+                    "name": "Still",
+                    "value": 0.27273948103963536
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.19545862911973833
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.1397492441699511
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.14582451358986265
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.12381557772705468
+                },
+                {
+                    "name": "Light",
+                    "value": 0.10376685811224742
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.17246196406367223
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.11377642069239838
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.027709778842402073
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.03159880735951123
+                },
+                {
+                    "name": "Like",
+                    "value": 0.49825188688621963
+                }
+            ]
+        }
+    ],
+    "Winter": [
+        {
+            "name": "Positive",
+            "children": [
+                {
+                    "name": "Active",
+                    "value": 0.03209221942644193
+                },
+                {
+                    "name": "Still",
+                    "value": 0.29744111340680407
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.28412554510877003
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.4451744161663333
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.14785189547272956
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.019155376018016458
+                },
+                {
+                    "name": "Light",
+                    "value": 0.07942007121729835
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.3626057151898118
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.15502618755195496
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.28259112474288584
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.05559819540041234
+                },
+                {
+                    "name": "Like",
+                    "value": 0.3611018116218382
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.46691001175741076
+                }
+            ]
+        },
+        {
+            "name": "Active",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.03209221942644193
+                },
+                {
+                    "name": "Still",
+                    "value": -0.2719725695859966
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.12710950910539756
+                },
+                {
+                    "name": "Peaceful",
+                    "value": -0.13877327639563733
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.3303722061099798
+                },
+                {
+                    "name": "Cold",
+                    "value": 0.109900101578588
+                },
+                {
+                    "name": "Light",
+                    "value": -0.06565675376895866
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.05279008948666751
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.1105621029805989
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.22229024738735953
+                },
+                {
+                    "name": "Cautious",
+                    "value": -0.24546731153200543
+                },
+                {
+                    "name": "Like",
+                    "value": -0.21301979480807848
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.06282537058266395
+                }
+            ]
+        },
+        {
+            "name": "Still",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.29744111340680407
+                },
+                {
+                    "name": "Active",
+                    "value": -0.2719725695859966
+                },
+                {
+                    "name": "Sad",
+                    "value": 0.020625578347293283
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.36033553825583414
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.10151036409539631
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.10778912187171495
+                },
+                {
+                    "name": "Light",
+                    "value": 0.00967692887107347
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.28277372093067454
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.1465760425416536
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.2259648354052867
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.17663087161462393
+                },
+                {
+                    "name": "Like",
+                    "value": 0.05601342261954717
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.32479790182816914
+                }
+            ]
+        },
+        {
+            "name": "Sad",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": -0.28412554510877003
+                },
+                {
+                    "name": "Active",
+                    "value": -0.12710950910539756
+                },
+                {
+                    "name": "Still",
+                    "value": 0.020625578347293283
+                },
+                {
+                    "name": "Peaceful",
+                    "value": -0.2658450628712807
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.21289912575073955
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.24650460146217468
+                },
+                {
+                    "name": "Light",
+                    "value": 0.24942806459234318
+                },
+                {
+                    "name": "Rough",
+                    "value": 0.3356655675316767
+                },
+                {
+                    "name": "Spiritual",
+                    "value": -0.03280323417744085
+                },
+                {
+                    "name": "Feminine",
+                    "value": -0.16660728114252926
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.19192040858956347
+                },
+                {
+                    "name": "Like",
+                    "value": 0.02911660216602026
+                },
+                {
+                    "name": "Interesting",
+                    "value": -0.06192092220638382
+                }
+            ]
+        },
+        {
+            "name": "Peaceful",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.4451744161663333
+                },
+                {
+                    "name": "Active",
+                    "value": -0.13877327639563733
+                },
+                {
+                    "name": "Still",
+                    "value": 0.36033553825583414
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.2658450628712807
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.06616768416022453
+                },
+                {
+                    "name": "Cold",
+                    "value": 0.06831811249611591
+                },
+                {
+                    "name": "Light",
+                    "value": -0.009079992395287478
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.4899789146424478
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.3094836780053356
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.29415177112790825
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.20843606858283306
+                },
+                {
+                    "name": "Like",
+                    "value": 0.2252567555586997
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.30008750259123107
+                }
+            ]
+        },
+        {
+            "name": "Hard",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.14785189547272956
+                },
+                {
+                    "name": "Active",
+                    "value": 0.3303722061099798
+                },
+                {
+                    "name": "Still",
+                    "value": 0.10151036409539631
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.21289912575073955
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.06616768416022453
+                },
+                {
+                    "name": "Cold",
+                    "value": 0.32665678060695974
+                },
+                {
+                    "name": "Light",
+                    "value": -0.30547153644336544
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.044972764595331664
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.15942880513632693
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.2071217901276524
+                },
+                {
+                    "name": "Cautious",
+                    "value": -0.25465096215997457
+                },
+                {
+                    "name": "Like",
+                    "value": -0.23817335182996582
+                },
+                {
+                    "name": "Interesting",
+                    "value": -0.03427462787657861
+                }
+            ]
+        },
+        {
+            "name": "Cold",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": -0.019155376018016458
+                },
+                {
+                    "name": "Active",
+                    "value": 0.109900101578588
+                },
+                {
+                    "name": "Still",
+                    "value": -0.10778912187171495
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.24650460146217468
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.06831811249611591
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.32665678060695974
+                },
+                {
+                    "name": "Light",
+                    "value": -0.4558249881866255
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.09970128432056942
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.02726146797537216
+                },
+                {
+                    "name": "Feminine",
+                    "value": -0.1338631962539762
+                },
+                {
+                    "name": "Cautious",
+                    "value": -0.2692854563204739
+                },
+                {
+                    "name": "Like",
+                    "value": -0.08084642162457606
+                },
+                {
+                    "name": "Interesting",
+                    "value": -0.20775542119997722
+                }
+            ]
+        },
+        {
+            "name": "Light",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.07942007121729835
+                },
+                {
+                    "name": "Active",
+                    "value": -0.06565675376895866
+                },
+                {
+                    "name": "Still",
+                    "value": 0.00967692887107347
+                },
+                {
+                    "name": "Sad",
+                    "value": 0.24942806459234318
+                },
+                {
+                    "name": "Peaceful",
+                    "value": -0.009079992395287478
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.30547153644336544
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.4558249881866255
+                },
+                {
+                    "name": "Rough",
+                    "value": 0.033740007806324204
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.10174878624988912
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.18047574032933159
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.44404792316853997
+                },
+                {
+                    "name": "Like",
+                    "value": 0.16893662349285787
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.228531260392066
+                }
+            ]
+        },
+        {
+            "name": "Rough",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": -0.3626057151898118
+                },
+                {
+                    "name": "Active",
+                    "value": -0.05279008948666751
+                },
+                {
+                    "name": "Still",
+                    "value": -0.28277372093067454
+                },
+                {
+                    "name": "Sad",
+                    "value": 0.3356655675316767
+                },
+                {
+                    "name": "Peaceful",
+                    "value": -0.4899789146424478
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.044972764595331664
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.09970128432056942
+                },
+                {
+                    "name": "Light",
+                    "value": 0.033740007806324204
+                },
+                {
+                    "name": "Spiritual",
+                    "value": -0.2096593234042718
+                },
+                {
+                    "name": "Feminine",
+                    "value": -0.4120357330931304
+                },
+                {
+                    "name": "Cautious",
+                    "value": -0.18889893098443356
+                },
+                {
+                    "name": "Like",
+                    "value": -0.0982833825195001
+                },
+                {
+                    "name": "Interesting",
+                    "value": -0.2716891361595684
+                }
+            ]
+        },
+        {
+            "name": "Spiritual",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.15502618755195496
+                },
+                {
+                    "name": "Active",
+                    "value": 0.1105621029805989
+                },
+                {
+                    "name": "Still",
+                    "value": 0.1465760425416536
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.03280323417744085
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.3094836780053356
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.15942880513632693
+                },
+                {
+                    "name": "Cold",
+                    "value": 0.02726146797537216
+                },
+                {
+                    "name": "Light",
+                    "value": 0.10174878624988912
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.2096593234042718
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.23297478075745767
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.17678531658206414
+                },
+                {
+                    "name": "Like",
+                    "value": 0.07109562995751438
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.19006968228867008
+                }
+            ]
+        },
+        {
+            "name": "Feminine",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.28259112474288584
+                },
+                {
+                    "name": "Active",
+                    "value": 0.22229024738735953
+                },
+                {
+                    "name": "Still",
+                    "value": 0.2259648354052867
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.16660728114252926
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.29415177112790825
+                },
+                {
+                    "name": "Hard",
+                    "value": 0.2071217901276524
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.1338631962539762
+                },
+                {
+                    "name": "Light",
+                    "value": 0.18047574032933159
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.4120357330931304
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.23297478075745767
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.16558951408535477
+                },
+                {
+                    "name": "Like",
+                    "value": -0.11455535338141297
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.2083743581097863
+                }
+            ]
+        },
+        {
+            "name": "Cautious",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.05559819540041234
+                },
+                {
+                    "name": "Active",
+                    "value": -0.24546731153200543
+                },
+                {
+                    "name": "Still",
+                    "value": 0.17663087161462393
+                },
+                {
+                    "name": "Sad",
+                    "value": 0.19192040858956347
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.20843606858283306
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.25465096215997457
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.2692854563204739
+                },
+                {
+                    "name": "Light",
+                    "value": 0.44404792316853997
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.18889893098443356
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.17678531658206414
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.16558951408535477
+                },
+                {
+                    "name": "Like",
+                    "value": 0.2124726885286791
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.056903122451613594
+                }
+            ]
+        },
+        {
+            "name": "Like",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.3611018116218382
+                },
+                {
+                    "name": "Active",
+                    "value": -0.21301979480807848
+                },
+                {
+                    "name": "Still",
+                    "value": 0.05601342261954717
+                },
+                {
+                    "name": "Sad",
+                    "value": 0.02911660216602026
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.2252567555586997
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.23817335182996582
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.08084642162457606
+                },
+                {
+                    "name": "Light",
+                    "value": 0.16893662349285787
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.0982833825195001
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.07109562995751438
+                },
+                {
+                    "name": "Feminine",
+                    "value": -0.11455535338141297
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.2124726885286791
+                },
+                {
+                    "name": "Interesting",
+                    "value": 0.5110685207880563
+                }
+            ]
+        },
+        {
+            "name": "Interesting",
+            "children": [
+                {
+                    "name": "Positive",
+                    "value": 0.46691001175741076
+                },
+                {
+                    "name": "Active",
+                    "value": 0.06282537058266395
+                },
+                {
+                    "name": "Still",
+                    "value": 0.32479790182816914
+                },
+                {
+                    "name": "Sad",
+                    "value": -0.06192092220638382
+                },
+                {
+                    "name": "Peaceful",
+                    "value": 0.30008750259123107
+                },
+                {
+                    "name": "Hard",
+                    "value": -0.03427462787657861
+                },
+                {
+                    "name": "Cold",
+                    "value": -0.20775542119997722
+                },
+                {
+                    "name": "Light",
+                    "value": 0.228531260392066
+                },
+                {
+                    "name": "Rough",
+                    "value": -0.2716891361595684
+                },
+                {
+                    "name": "Spiritual",
+                    "value": 0.19006968228867008
+                },
+                {
+                    "name": "Feminine",
+                    "value": 0.2083743581097863
+                },
+                {
+                    "name": "Cautious",
+                    "value": 0.056903122451613594
+                },
+                {
+                    "name": "Like",
+                    "value": 0.5110685207880563
+                }
+            ]
+        }
+    ]
+}
