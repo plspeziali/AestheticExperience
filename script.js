@@ -88,6 +88,7 @@ function createChart(paint_selected){
                     for (const emo2 of emo.children) {
                         console.log(emo2)
                         if (typeof emo2.value === 'number') {
+                            emo2.oldValue = emo2.value
                             emo2.value = (emo2.value - minValue) / range * (newMax - newMin) + newMin;
                         }
                     }
@@ -111,23 +112,52 @@ function createChart(paint_selected){
         networkSeries.dataFields.value = "value";
         networkSeries.dataFields.name = "name";
         networkSeries.dataFields.children = "children";
-        networkSeries.nodes.template.tooltipText = "{name}:{value}";
+        networkSeries.nodes.template.tooltipText = "{name}";
         networkSeries.nodes.template.fillOpacity = 1;
         networkSeries.nodes.template.label.text = "{name}";
         networkSeries.fontSize = 10;
-
-        // Start collapsed
-        networkSeries.maxLevels = 1;
-
-        // Set up data fields
-        networkSeries.dataFields.value = "value";
-        networkSeries.dataFields.name = "name";
-        networkSeries.dataFields.children = "children";
-
-        // Add labels
-        networkSeries.nodes.template.label.text = "{name}";
-        networkSeries.fontSize = 10;
         networkSeries.centerStrength = 0.5;
+
+        // Define node template
+        var nodeTemplate = networkSeries.nodes.template;
+        nodeTemplate.propertyFields.value = "value"; // Set node radius based on 'value' property
+        nodeTemplate.radius = 20; // Default node radius
+        nodeTemplate.fillOpacity = 0.7;
+
+// Create the label
+        var label = nodeTemplate.createChild(am4core.Label);
+        label.text = "{oldValue}";
+        label.fill = am4core.color("#FFFFFF"); // White text color
+        label.fontSize = 12;
+        label.dy = -10; // Adjust the label's vertical position
+        nodeTemplate.events.on("ready", function (event) {
+            label.hide();
+        });
+
+        // Define links between nodes if necessary
+        networkSeries.links.template.distance = 1;
+
+        // Enable drag and zoom interaction
+        chart.zoomable = true;
+        chart.seriesContainer.draggable = true;
+
+        // Add a click event to show/hide the label
+        nodeTemplate.events.on("hit", function (event) {
+            var clickedNode = event.target;
+            if (label.isHiding || label.isHidden) {
+                label.show();
+            } else {
+                label.hide();
+            }
+        });
+
+        // Create a black outline for the label
+        label.outline = true;
+        label.outlineWidth = 2;
+        label.outlineColor = am4core.color("#000");
+
+        // Define links between nodes if necessary
+        networkSeries.links.template.distance = 1;
 
         // Start collapsed
         networkSeries.maxLevels = 1;
