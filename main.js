@@ -1,6 +1,7 @@
 const { app, BrowserWindow } = require('electron')
 const path = require('node:path')
 
+
 function createWindow () {
     const win = new BrowserWindow({
         width: 1280,
@@ -10,8 +11,11 @@ function createWindow () {
         }
     })
 
+    win.webContents.setFrameRate(60)
+
     win.loadFile('index.html')
 }
+
 
 app.whenReady().then(() => {
     createWindow()

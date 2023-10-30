@@ -11,10 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@amcharts/amcharts4": "^4.10.38",
-    "@amcharts/amcharts5": "^5.5.2",
-    "@amcharts/amcharts5-fonts": "^5.0.1",
-    "@egjs/flicking": "^4.11.0",
     "electron": "^27.0.2"
   }
 }
