@@ -213,6 +213,11 @@ function renderCurrentChart() {
     createChart(currentChartIndex); // Replace with your amChart creation logic
 }
 
+function renderCurrentHeatMap() {
+    // Create and render the amChart based on chartData
+    createHeat(currentChartIndex); // Replace with your amChart creation logic
+}
+
 prevButton.addEventListener('click', () => {
     currentChartIndex = (currentChartIndex - 1 + paintingsLength) % paintingsLength;
     renderCurrentChart();
@@ -274,3 +279,14 @@ function minMaxNormalizeToRange(data, newMin, newMax) {
 
     return { min: newMin, max: newMax };
 }
+
+$(document).ready(function () {
+    // Select the button element by its ID and attach a click event handler
+    $("#fdg").click(function () {
+        renderCurrentChart();
+    });
+
+    $("#heat").click(function () {
+        renderCurrentHeatMap();
+    });
+});
