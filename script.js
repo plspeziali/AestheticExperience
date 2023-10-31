@@ -132,6 +132,16 @@ function createChart(paint_selected){
             return 16; // Keep the default font size for other nodes
         });
 
+        networkSeries.nodes.template.adapter.add("fill", function(fill, target) {
+            var node = target
+            if (node.dataItem.level === 2) {
+                var value = node.dataItem.dataContext.value;
+                value = ((value - min) / (max-min))
+                return fill.lighten((1 - value));
+            }
+            return fill.lighten(0)
+        });
+
         // Customize minRadius for nodes at the first level depth
         networkSeries.nodes.template.paddingRadius = 20
         networkSeries.nodes.template.innerWidth = 60
@@ -185,6 +195,10 @@ function createChart(paint_selected){
                 });
             }
         });
+
+        networkSeries.links.template.strokeWidth = 5;
+        networkSeries.links.template.strokeOpacity = 1;
+
     });
 }
 
