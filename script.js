@@ -95,16 +95,8 @@ function createChart(paint_selected){
 
         //networkSeries.nodes.template.label.text = "{name}"
 
-        networkSeries.nodes.template.label.html = "<i class=\"material-icons\">{icon}</i>";
+        networkSeries.nodes.template.label.html = "<i class=\"material-icons\" style=\"font-size: 1.5em;\">{icon}</i>";
         // Modify the node template for nodes at depth 1
-        networkSeries.nodes.template.adapter.add("label.html", function(html, target) {
-            console.log(target)
-            if (target.dataItem.dataContext.text === paintingsList[paint_selected]) {
-                // Add custom HTML for nodes with matching text
-                return `<div>ciaa</div>`;
-            }
-            return html; // Use the default HTML for other nodes
-        });
         networkSeries.nodes.template.label.adapter.add("html", function(text, target) {
             if (target.dataItem) {
                 switch(target.dataItem.level) {
