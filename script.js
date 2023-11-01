@@ -368,15 +368,16 @@ function createChordDiagram(paint_selected){
 
         console.log(chords)
 
-        chords =  convertToEmotionPairs(chords[0].children)
+        chords =  convertToChordPairs(chords[0].children)
 
         console.log(chords)
 
         chart.data = chords
 
-        chart.dataFields.fromName = "emotion1";
-        chart.dataFields.toName = "emotion2";
+        chart.dataFields.fromName = "from";
+        chart.dataFields.toName = "to";
         chart.dataFields.value = "value";
+        chart.dataFields.oldValue = "oldValue";
 
         // Control width of the node
         chart.innerRadius = -20;
@@ -397,7 +398,9 @@ function createChordDiagram(paint_selected){
         // Configure links
         var link = chart.links.template;
         link.colorMode = "gradient";
-        link.fillOpacity = 0.5;
+        link.fillOpacity = 0.7;
+
+        link.tooltipText = "{fromName}-{toName}: {oldValue}"
     });
 }
 
@@ -529,8 +532,27 @@ function convertToEmotionPairs(data) {
                 result.push({ emotion1, emotion2, value });
             }
         }
-        const value = 1.0;
-        result.push({ emotion1, emotion1, value });
+    }
+
+    return result;
+}
+
+function convertToChordPairs(data) {
+    const result = [];
+
+    for (let i = 0; i < data.length; i++) {
+        const emotion1 = data[i].name;
+        const children = data[i].children;
+
+        for (let j = 0; j < children.length; j++) {
+            const emotion2 = children[j].name;
+            const value = children[j].value;
+            const oldValue = children[j].oldValue;
+            console.log(result.filter(e => e.from === emotion2 && e.to === emotion1).length )
+            if(result.filter(e => e.from === emotion2 && e.to === emotion1).length == 0) {
+                result.push({from: emotion1, to: emotion2, value: value, oldValue: oldValue });
+            }
+        }
     }
 
     return result;
