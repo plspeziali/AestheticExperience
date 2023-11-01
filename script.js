@@ -24,6 +24,57 @@ const adjectiveToIcon = {
     Like: "thumb_up",
     Interesting: "emoji_objects",
 };
+const artworks = [
+    {
+        artist: "Paul Klee",
+        title: "Zeichen in Gelb/ Sign in Yellow",
+        year: 1937,
+        collection: "Foundation Beyeler, Riehen/Basel"
+    },
+    {
+        artist: "Paul Klee",
+        title: "Blick aus Rot/ Be aware of Red",
+        year: 1937,
+        collection: "Zentrum Paul Klee, Bern"
+    },
+    {
+        artist: "Wassily Kandinsky",
+        title: "Regungen/Impulses",
+        year: 1928,
+        collection: "Albertina, Vienna, Permanent loan basis, Collection Forberg",
+    },
+    {
+        artist: "Wassily Kandinsky",
+        title: "Untitled",
+        year: 1934,
+        collection: "Centre Pompidou, Paris"
+    },
+    {
+        artist: "Richard Mortensen",
+        title: "Øvelsesstykker/ Exercise pieces",
+        year: 1922,
+        collection: "Private Collection, Sold by Bruun Rasmussen Auctioneers, 6. August 1992, lot 728"
+    },
+    {
+        artist: "Richard Mortensen",
+        title: "Øvelsesstykker/ Exercise pieces",
+        year: 1922,
+        color: "Orange",
+        collection: "Private Collection, On sale at Bruun Rasmussen Auctioneers, 20. July 1992, lot 729"
+    },
+    {
+        artist: "Joan Mirò",
+        title: "Untitled",
+        year: 1961,
+        collection: "Yvon Taillandier, Pierre Matisse Gallery"
+    },
+    {
+        artist: "Fritz Winter",
+        title: "Siebdruck 6/ Silkscreen 6",
+        year: 1950,
+        collection: "Galleri MDA, Sweden, Helsingborg"
+    }
+];
 const paintingsLength = paintingsList.length;
 
 // JavaScript to inhibit scrolling down and disable the right scrollbar
@@ -213,7 +264,7 @@ function createHeat(paint_selected){
     $("#bgdiv").fadeOut(500, function(){
 
         $("#chart").empty();
-        $("#chart").append("<div class=\"chart-container\" id=\"heatdiv\"></div>");
+        $("#chart").append("<div class=\"chart-container content-div\" id=\"heatdiv\"></div>");
         let bgdiv = document.getElementById('bgdiv');
         bgdiv.style.backgroundImage = "url('images/"+(paint_selected+1)+".jpg')";
     });
@@ -291,6 +342,49 @@ function createHeat(paint_selected){
 
 }
 
+function createChordDiagram(paint_selected){
+    $("#bgdiv").fadeOut(500, function(){
+
+        $("#chart").empty();
+        $("#chart").append("<div class=\"chart-container content-div\" id=\"infodiv\"></div>");
+        let bgdiv = document.getElementById('bgdiv');
+        bgdiv.style.backgroundImage = "url('images/"+(paint_selected+1)+".jpg')";
+    });
+
+    $("#bgdiv").fadeIn(500, function() {
+        
+    });
+}
+
+function createAbout(paint_selected){
+    $("#bgdiv").fadeOut(500, function(){
+
+        $("#chart").empty();
+        $("#chart").append("<div class=\"chart-container content-div\" id=\"infodiv\"></div>");
+        let bgdiv = document.getElementById('bgdiv');
+        bgdiv.style.backgroundImage = "url('images/"+(paint_selected+1)+".jpg')";
+    });
+
+    $("#bgdiv").fadeIn(500, function() {
+        $("#infodiv").append("<div class=\"row container\" style=\"clear:both;\">\n" +
+            "                <div class=\"artist-info col-lg-4 container\" id=\"div-img\">\n" +
+            "                   <figure class=\"figure painting-container img-container\">" +
+            "                   <img src=\"images/"+(paint_selected+1)+".jpg\" class=\"figure-img img-fluid rounded\">" +
+            "                   </figure>" +
+            "                </div>" +
+            "                <div class=\"artist-info col-lg-8 art-desc-div\">\n" +
+            "                    <p class=\"art-desc\">" +
+            "                    <b>Title</b>: "+artworks[paint_selected].title+"<br>"+
+            "                    <b>Artist</b>: "+artworks[paint_selected].artist+"<br>"+
+            "                    <b>Year</b>: "+artworks[paint_selected].year+"<br>"+
+            "                    <b>Collection</b>: "+artworks[paint_selected].collection+"<br>"+
+            "                    </p>"+
+            "                </div>"+
+            "                </div>"
+        );
+    });
+}
+
 
 let currentChartIndex = 0;
 
@@ -305,6 +399,16 @@ function renderCurrentChart() {
 function renderCurrentHeatMap() {
     // Create and render the amChart based on chartData
     createHeat(currentChartIndex); // Replace with your amChart creation logic
+}
+
+function renderChordDiagram() {
+    // Create and render the amChart based on chartData
+    createChordDiagram(currentChartIndex); // Replace with your amChart creation logic
+}
+
+function renderAbout() {
+    // Create and render the amChart based on chartData
+    createAbout(currentChartIndex); // Replace with your amChart creation logic
 }
 
 prevButton.addEventListener('click', () => {
@@ -395,5 +499,13 @@ $(document).ready(function () {
 
     $("#heat").click(function () {
         renderCurrentHeatMap();
+    });
+
+    $("#chord").click(function () {
+        renderChordDiagram();
+    });
+
+    $("#about").click(function () {
+        renderAbout();
     });
 });

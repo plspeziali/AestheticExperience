@@ -27,28 +27,62 @@ body {
     width: 100%;
     height: 100%;
     position: absolute;
-    top: 50%;
+    top: 49.9%;
     left: 50%;
     transform: translate(-50%, -50%);
     backdrop-filter: blur(30px); /* Adjust the blur radius as needed */
 }
 
-#heatdiv {
+.content-div {
     width: 70%;
     height: 70%;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     border-radius: 25px;
     background-color:  rgba(255, 255, 255, .5)  ;
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    min-height: 700px;
 }
+
+.painting-container {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.art-desc {
+    font-size: 25px;
+    margin-top: 10px;
+    padding-left:25px;
+
+}
+
+.art-desc-div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.figure-img {
+    max-height: 500px;
+}
+
 
 .background-image {
     margin-top: 62px; /* Adjust the value to match the Navbar height */
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 105%;
     background-size: cover;
     top: 0;
     left: 0;
