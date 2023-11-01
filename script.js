@@ -1,8 +1,13 @@
 let json_data = null;
-const paintingsList = ["Klee Yellow", "Klee Red",
-                                "Kandinsky Albertina", "Kandinsky Pompidou",
-                                "Mortensen Pink", "Mortensen Orange",
-                                "Miro", "Winter"]
+const paintingsList = [
+    "Klee Yellow",
+    "Klee Red",
+    "Kandinsky Albertina",
+    "Kandinsky Pompidou",
+    "Mortensen Pink",
+    "Mortensen Orange",
+    "Miro",
+    "Winter"]
 const adjectiveToIcon = {
     Positive: "sentiment_very_satisfied",
     Active: "directions_run",
@@ -53,7 +58,7 @@ am4core.ready(function() {
 // Themes begin
     am4core.useTheme(am4themes_animated);
 // Themes end
-    //createChart(0)
+    renderCurrentChart();
 
 }); // end am4core.ready()
 
@@ -72,7 +77,7 @@ function createChart(paint_selected){
 
         let paint_obj = [{
             name: paintingsList[paint_selected],
-            children: json_data[paintingsList[paint_selected]],
+            children: structuredClone(json_data[paintingsList[paint_selected]]),
         }]
 
         // Define the new min and max values for scaling (20-40)
@@ -87,6 +92,7 @@ function createChart(paint_selected){
         chart.data = paint_obj;
 
         networkSeries.dataFields.value = "value";
+        networkSeries.dataFields.oldValue = "oldValue";
         networkSeries.dataFields.name = "name";
         networkSeries.dataFields.icon = "icon"
         networkSeries.dataFields.children = "children";
@@ -202,6 +208,89 @@ function createChart(paint_selected){
     });
 }
 
+function createHeat(paint_selected){
+
+    $("#bgdiv").fadeOut(500, function(){
+
+        $("#chart").empty();
+        $("#chart").append("<div class=\"chart-container\" id=\"heatdiv\"></div>");
+        let bgdiv = document.getElementById('bgdiv');
+        bgdiv.style.backgroundImage = "url('images/"+(paint_selected+1)+".jpg')";
+    });
+
+    $("#bgdiv").fadeIn(500, function() {
+
+        var chart = am4core.create("heatdiv", am4charts.XYChart);
+        chart.maskBullets = false;
+
+        var xAxis = chart.xAxes.push(new am4charts.CategoryAxis());
+        var yAxis = chart.yAxes.push(new am4charts.CategoryAxis());
+
+        xAxis.dataFields.category = "emotion1";
+        yAxis.dataFields.category = "emotion2";
+
+        xAxis.renderer.grid.template.disabled = true;
+        xAxis.renderer.minGridDistance = 40;
+
+        yAxis.renderer.grid.template.disabled = true;
+        yAxis.renderer.inversed = true;
+        yAxis.renderer.minGridDistance = 30;
+
+        var series = chart.series.push(new am4charts.ColumnSeries());
+        series.dataFields.categoryX = "emotion1";
+        series.dataFields.categoryY = "emotion2";
+        series.dataFields.value = "value";
+        series.sequencedInterpolation = true;
+        series.defaultState.transitionDuration = 3000;
+
+        var columnTemplate = series.columns.template;
+        columnTemplate.strokeWidth = 2;
+        columnTemplate.strokeOpacity = 1;
+        columnTemplate.stroke = am4core.color("#ffffff");
+        columnTemplate.tooltipText = " {emotion1}, {emotion2}: {value}";
+        columnTemplate.width = am4core.percent(100);
+        columnTemplate.height = am4core.percent(100);
+
+        series.heatRules.push({
+            target: columnTemplate,
+            property: "fill",
+            min: am4core.color("#ffffff"),
+            max: am4core.color("#692155")
+        });
+
+        // heat legend
+        var heatLegend = chart.bottomAxesContainer.createChild(am4charts.HeatLegend);
+        heatLegend.width = am4core.percent(100);
+        heatLegend.series = series;
+        heatLegend.valueAxis.renderer.labels.template.fontSize = 9;
+        heatLegend.valueAxis.renderer.minGridDistance = 30;
+
+        // heat legend behavior
+        series.columns.template.events.on("over", (event) => {
+            handleHover(event.target);
+        })
+
+        series.columns.template.events.on("hit", (event) => {
+            handleHover(event.target);
+        })
+
+        function handleHover(column) {
+            if (!isNaN(column.dataItem.value)) {
+                heatLegend.valueAxis.showTooltipAt(column.dataItem.value)
+            } else {
+                heatLegend.valueAxis.hideTooltip();
+            }
+        }
+
+        series.columns.template.events.on("out", (event) => {
+            heatLegend.valueAxis.hideTooltip();
+        })
+
+        chart.data = convertToEmotionPairs(json_data[paintingsList[paint_selected]]);
+    });
+
+}
+
 
 let currentChartIndex = 0;
 
@@ -227,9 +316,6 @@ nextButton.addEventListener('click', () => {
     currentChartIndex = (currentChartIndex + 1) % paintingsLength;
     renderCurrentChart();
 });
-
-// Initial rendering
-renderCurrentChart();
 
 
 function minMaxNormalizeToRange(data, newMin, newMax) {
@@ -278,6 +364,27 @@ function minMaxNormalizeToRange(data, newMin, newMax) {
     }
 
     return { min: newMin, max: newMax };
+}
+
+function convertToEmotionPairs(data) {
+    const result = [];
+
+    for (let i = 1; i < data.length; i++) {
+        const emotion1 = data[i].name;
+        const children = data[i].children;
+
+        for (let j = 0; j < children.length; j++) {
+            const emotion2 = children[j].name;
+            const value = children[j].value;
+            if(emotion2 !== "Active"){
+                result.push({ emotion1, emotion2, value });
+            }
+        }
+        const value = 1.0;
+        result.push({ emotion1, emotion1, value });
+    }
+
+    return result;
 }
 
 $(document).ready(function () {
