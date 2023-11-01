@@ -6,6 +6,8 @@ function createWindow () {
     const win = new BrowserWindow({
         width: 1280,
         height: 960,
+        autoHideMenuBar: true,
+        title: 'Aesthetic Experience - Paolo Speziali',
         webPreferences: {
             preload: path.join(__dirname, 'preload.js')
         }
