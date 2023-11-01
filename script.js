@@ -346,13 +346,58 @@ function createChordDiagram(paint_selected){
     $("#bgdiv").fadeOut(500, function(){
 
         $("#chart").empty();
-        $("#chart").append("<div class=\"chart-container content-div\" id=\"infodiv\"></div>");
+        $("#chart").append("<div class=\"chart-container content-div\" id=\"chord-div\"></div>");
         let bgdiv = document.getElementById('bgdiv');
         bgdiv.style.backgroundImage = "url('images/"+(paint_selected+1)+".jpg')";
     });
 
     $("#bgdiv").fadeIn(500, function() {
-        
+        var chart = am4core.create("chord-div", am4charts.ChordDiagram);
+
+        // Define the new min and max values for scaling (20-40)
+        const newMinValue = 0;
+        const newMaxValue = 100;
+
+        var chords = [{
+            name: paintingsList[paint_selected],
+            children: structuredClone(json_data[paintingsList[paint_selected]]),
+        }]
+
+        // Normalize to the 20-40 scale and find the new min and max values
+        const { min, max } = minMaxNormalizeToRange(chords, newMinValue, newMaxValue);
+
+        console.log(chords)
+
+        chords =  convertToEmotionPairs(chords[0].children)
+
+        console.log(chords)
+
+        chart.data = chords
+
+        chart.dataFields.fromName = "emotion1";
+        chart.dataFields.toName = "emotion2";
+        chart.dataFields.value = "value";
+
+        // Control width of the node
+        chart.innerRadius = -20;
+
+        // Configure ribbon appearance
+        var slice = chart.nodes.template.slice;
+        slice.stroke = am4core.color("#000");
+        slice.strokeOpacity = 0.5;
+        slice.strokeWidth = 1;
+        slice.cornerRadius = 8;
+        slice.innerCornerRadius = 0;
+
+        // Configure labels
+        var label = chart.nodes.template.label;
+        label.fontSize = 20;
+        label.fill = am4core.color("#555");
+
+        // Configure links
+        var link = chart.links.template;
+        link.colorMode = "gradient";
+        link.fillOpacity = 0.5;
     });
 }
 

@@ -23,6 +23,24 @@ body {
     padding-bottom: 5px;
 }
 
+.arrow-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.arrow-button i {
+    font-size: 2rem; /* Adjust the size of the arrow icon */
+    color: #ffffff; /* Arrow color */
+}
+
+.arrow-button:hover i {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.7); /* White shadow on hover */
+}
+
+
+
 .chart-container {
     width: 100%;
     height: 100%;
