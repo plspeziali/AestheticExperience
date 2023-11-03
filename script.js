@@ -117,12 +117,64 @@ function createChart(paint_selected){
     $("#bgdiv").fadeOut(500, function(){
 
         $("#chart").empty();
+        $("#legend").remove();
         let bgdiv = document.getElementById('bgdiv');
         bgdiv.style.backgroundImage = "url('images/"+(paint_selected+1)+".jpg')";
+        $("#bgdiv").append("<div class=\"chart-container legend-div\" id=\"legend\"></div>");
+
+        // Get the element where you want to append the legend
+        const legendContainer = $('#legend');
+
+        // Create a Bootstrap row to hold two columns
+        var row = $('<div>').addClass('row');
+
+        let columnCounter = 0; // Counter for columns
+
+        // Create a header for the legend
+        const legendHeader = $('<h3>').text('Emotion Icon Legend');
+        legendContainer.append(legendHeader);
+
+        // Insert a horizontal bar (hr) between the title and the legend
+        const horizontalBar = $('<hr>');
+        legendContainer.append(horizontalBar);
+
+        // Loop through the dictionary and create legend items
+        for (const adjective in adjectiveToIcon) {
+            const icon = adjectiveToIcon[adjective];
+            const legendItem = $('<div>').addClass('legend-item');
+            const iconElement = $('<i>').addClass('material-icons align-middle').text(icon);
+            const textElement = $('<span>').text(adjective);
+
+            // Append the icon and text to the legend item
+            legendItem.append(iconElement, " - " ,textElement);
+
+            // Create a Bootstrap column and append the legend item
+            const column = $('<div>').addClass('col-md-6');
+            column.append(legendItem);
+
+            // Append the column to the row
+            row.append(column);
+
+            // Check if it's time to start a new row
+            columnCounter++;
+            if (columnCounter === 2) {
+                // Append the row to the legend container and start a new row
+                legendContainer.append(row);
+                row = $('<div>').addClass('row');
+                columnCounter = 0;
+            }
+        }
+
+        // Append any remaining items in the last row
+        if (columnCounter > 0) {
+            legendContainer.append(row);
+        }
+
     });
 
     $("#bgdiv").fadeIn(500, function() {
         var chart = am4core.create("chart", am4plugins_forceDirected.ForceDirectedTree);
+
         // Rest of your chart configuration
         var networkSeries = chart.series.push(new am4plugins_forceDirected.ForceDirectedSeries())
 
@@ -152,7 +204,7 @@ function createChart(paint_selected){
 
         //networkSeries.nodes.template.label.text = "{name}"
 
-        networkSeries.nodes.template.label.html = "<i class=\"material-icons\" style=\"font-size: 1.5em;\">{icon}</i>";
+        networkSeries.nodes.template.label.html = "<i class=\"material-icons align-middle\" style=\"font-size: 1.5em;\">{icon}</i>";
         // Modify the node template for nodes at depth 1
         networkSeries.nodes.template.label.adapter.add("html", function(text, target) {
             if (target.dataItem) {
@@ -264,12 +316,10 @@ function createHeat(paint_selected){
     $("#bgdiv").fadeOut(500, function(){
 
         $("#chart").empty();
+        $("#legend").remove();
         $("#chart").append("<div class=\"chart-container content-div\" id=\"heatdiv\"></div>");
         let bgdiv = document.getElementById('bgdiv');
         bgdiv.style.backgroundImage = "url('images/"+(paint_selected+1)+".jpg')";
-    });
-
-    $("#bgdiv").fadeIn(500, function() {
 
         var chart = am4core.create("heatdiv", am4charts.XYChart);
         chart.maskBullets = false;
@@ -338,6 +388,12 @@ function createHeat(paint_selected){
         })
 
         chart.data = convertToEmotionPairs(json_data[paintingsList[paint_selected]]);
+
+
+    });
+
+    $("#bgdiv").fadeIn(500, function() {
+        
     });
 
 }
@@ -346,12 +402,10 @@ function createChordDiagram(paint_selected){
     $("#bgdiv").fadeOut(500, function(){
 
         $("#chart").empty();
+        $("#legend").remove();
         $("#chart").append("<div class=\"chart-container content-div\" id=\"chord-div\"></div>");
         let bgdiv = document.getElementById('bgdiv');
         bgdiv.style.backgroundImage = "url('images/"+(paint_selected+1)+".jpg')";
-    });
-
-    $("#bgdiv").fadeIn(500, function() {
         var chart = am4core.create("chord-div", am4charts.ChordDiagram);
 
         // Define the new min and max values for scaling (20-40)
@@ -401,6 +455,12 @@ function createChordDiagram(paint_selected){
         link.fillOpacity = 0.7;
 
         link.tooltipText = "{fromName}-{toName}: {oldValue}"
+
+
+    });
+
+    $("#bgdiv").fadeIn(500, function() {
+
     });
 }
 
@@ -408,6 +468,38 @@ function createAbout(paint_selected){
     $("#bgdiv").fadeOut(500, function(){
 
         $("#chart").empty();
+        $("#legend").remove();
+        $("#chart").append("<div class=\"chart-container content-div\" id=\"infodiv\"></div>");
+        let bgdiv = document.getElementById('bgdiv');
+        bgdiv.style.backgroundImage = "url('images/"+(paint_selected+1)+".jpg')";
+        $("#infodiv").append("<div class=\"row container\" style=\"clear:both;\">\n" +
+            "                <div class=\"artist-info col-lg-4 container\" id=\"div-img\">\n" +
+            "                   <figure class=\"figure painting-container img-container\">" +
+            "                   <img src=\"images/"+(paint_selected+1)+".jpg\" class=\"figure-img img-fluid rounded\">" +
+            "                   </figure>" +
+            "                </div>" +
+            "                <div class=\"artist-info col-lg-8 art-desc-div\">\n" +
+            "                    <p class=\"art-desc\">" +
+            "                    <b>Title</b>: "+artworks[paint_selected].title+"<br>"+
+            "                    <b>Artist</b>: "+artworks[paint_selected].artist+"<br>"+
+            "                    <b>Year</b>: "+artworks[paint_selected].year+"<br>"+
+            "                    <b>Collection</b>: "+artworks[paint_selected].collection+"<br>"+
+            "                    </p>"+
+            "                </div>"+
+            "                </div>"
+        );
+    });
+
+    $("#bgdiv").fadeIn(500, function() {
+
+    });
+}
+
+function renderMenu(){
+    $("#bgdiv").fadeOut(500, function(){
+
+        $("#chart").empty();
+        $("#legend").remove();
         $("#chart").append("<div class=\"chart-container content-div\" id=\"infodiv\"></div>");
         let bgdiv = document.getElementById('bgdiv');
         bgdiv.style.backgroundImage = "url('images/"+(paint_selected+1)+".jpg')";
@@ -574,5 +666,9 @@ $(document).ready(function () {
 
     $("#about").click(function () {
         renderAbout();
+    });
+
+    $("#menu").click(function () {
+        renderMenu();
     });
 });
