@@ -77,6 +77,10 @@ const artworks = [
 ];
 const paintingsLength = paintingsList.length;
 
+var currentChartIndex = 0;
+
+var currentViz = "MENU";
+
 // JavaScript to inhibit scrolling down and disable the right scrollbar
 window.addEventListener('scroll', function(e) {
     window.scrollTo(0, 0); // Disable vertical scrolling
@@ -109,7 +113,7 @@ am4core.ready(function() {
 // Themes begin
     am4core.useTheme(am4themes_animated);
 // Themes end
-    renderCurrentChart();
+    renderMenu();
 
 }); // end am4core.ready()
 
@@ -119,6 +123,7 @@ function createChart(paint_selected){
         $("#chart").empty();
         $("#legend").remove();
         let bgdiv = document.getElementById('bgdiv');
+        bgdiv.style.background = "";
         bgdiv.style.backgroundImage = "url('images/"+(paint_selected+1)+".jpg')";
         $("#bgdiv").append("<div class=\"chart-container legend-div\" id=\"legend\"></div>");
 
@@ -319,6 +324,7 @@ function createHeat(paint_selected){
         $("#legend").remove();
         $("#chart").append("<div class=\"chart-container content-div\" id=\"heatdiv\"></div>");
         let bgdiv = document.getElementById('bgdiv');
+        bgdiv.style.background = "";
         bgdiv.style.backgroundImage = "url('images/"+(paint_selected+1)+".jpg')";
 
         var chart = am4core.create("heatdiv", am4charts.XYChart);
@@ -393,7 +399,7 @@ function createHeat(paint_selected){
     });
 
     $("#bgdiv").fadeIn(500, function() {
-        
+
     });
 
 }
@@ -405,6 +411,7 @@ function createChordDiagram(paint_selected){
         $("#legend").remove();
         $("#chart").append("<div class=\"chart-container content-div\" id=\"chord-div\"></div>");
         let bgdiv = document.getElementById('bgdiv');
+        bgdiv.style.background = "";
         bgdiv.style.backgroundImage = "url('images/"+(paint_selected+1)+".jpg')";
         var chart = am4core.create("chord-div", am4charts.ChordDiagram);
 
@@ -471,6 +478,7 @@ function createAbout(paint_selected){
         $("#legend").remove();
         $("#chart").append("<div class=\"chart-container content-div\" id=\"infodiv\"></div>");
         let bgdiv = document.getElementById('bgdiv');
+        bgdiv.style.background = "";
         bgdiv.style.backgroundImage = "url('images/"+(paint_selected+1)+".jpg')";
         $("#infodiv").append("<div class=\"row container\" style=\"clear:both;\">\n" +
             "                <div class=\"artist-info col-lg-4 container\" id=\"div-img\">\n" +
@@ -495,71 +503,94 @@ function createAbout(paint_selected){
     });
 }
 
-function renderMenu(){
+function createMenu(){
     $("#bgdiv").fadeOut(500, function(){
 
         $("#chart").empty();
         $("#legend").remove();
-        $("#chart").append("<div class=\"chart-container content-div\" id=\"infodiv\"></div>");
+        $("#chart").append("<div class=\"chart-container content-div\" id=\"menudiv\"></div>");
         let bgdiv = document.getElementById('bgdiv');
-        bgdiv.style.backgroundImage = "url('images/"+(paint_selected+1)+".jpg')";
+        bgdiv.style.background = "linear-gradient(to bottom, #333, #666)";
+
+        $("#menudiv").append("");
+
     });
 
-    $("#bgdiv").fadeIn(500, function() {
-        $("#infodiv").append("<div class=\"row container\" style=\"clear:both;\">\n" +
-            "                <div class=\"artist-info col-lg-4 container\" id=\"div-img\">\n" +
-            "                   <figure class=\"figure painting-container img-container\">" +
-            "                   <img src=\"images/"+(paint_selected+1)+".jpg\" class=\"figure-img img-fluid rounded\">" +
-            "                   </figure>" +
-            "                </div>" +
-            "                <div class=\"artist-info col-lg-8 art-desc-div\">\n" +
-            "                    <p class=\"art-desc\">" +
-            "                    <b>Title</b>: "+artworks[paint_selected].title+"<br>"+
-            "                    <b>Artist</b>: "+artworks[paint_selected].artist+"<br>"+
-            "                    <b>Year</b>: "+artworks[paint_selected].year+"<br>"+
-            "                    <b>Collection</b>: "+artworks[paint_selected].collection+"<br>"+
-            "                    </p>"+
-            "                </div>"+
-            "                </div>"
-        );
-    });
+    $("#bgdiv").fadeIn(500);
 }
 
-
-let currentChartIndex = 0;
 
 const prevButton = document.getElementById('prev-chart');
 const nextButton = document.getElementById('next-chart');
 
 function renderCurrentChart() {
     // Create and render the amChart based on chartData
+    $("#prev-chart").show();
+    $("#next-chart").show();
+    currentViz = "FORCE";
     createChart(currentChartIndex); // Replace with your amChart creation logic
 }
 
 function renderCurrentHeatMap() {
     // Create and render the amChart based on chartData
+    $("#prev-chart").show();
+    $("#next-chart").show();
+    currentViz = "HEAT";
     createHeat(currentChartIndex); // Replace with your amChart creation logic
 }
 
 function renderChordDiagram() {
     // Create and render the amChart based on chartData
+    $("#prev-chart").show();
+    $("#next-chart").show();
+    currentViz = "CHORD";
     createChordDiagram(currentChartIndex); // Replace with your amChart creation logic
 }
 
 function renderAbout() {
     // Create and render the amChart based on chartData
+    $("#prev-chart").show();
+    $("#next-chart").show();
+    currentViz = "ABOUT";
     createAbout(currentChartIndex); // Replace with your amChart creation logic
+}
+
+function renderMenu() {
+    $("#prev-chart").hide();
+    $("#next-chart").hide();
+    currentViz = "MENU";
+    createMenu();
 }
 
 prevButton.addEventListener('click', () => {
     currentChartIndex = (currentChartIndex - 1 + paintingsLength) % paintingsLength;
-    renderCurrentChart();
+    chooseNextChart();
 });
 
 nextButton.addEventListener('click', () => {
     currentChartIndex = (currentChartIndex + 1) % paintingsLength;
-    renderCurrentChart();
+    chooseNextChart();
 });
+
+function chooseNextChart(){
+    switch (currentViz){
+        case "FORCE":
+            renderCurrentChart();
+            break;
+        case "HEAT":
+            renderCurrentHeatMap();
+            break;
+        case "CHORD":
+            renderChordDiagram();
+            break;
+        case "ABOUT":
+            renderAbout();
+            break;
+        case "MENU":
+            renderMenu();
+            break;
+    }
+}
 
 
 function minMaxNormalizeToRange(data, newMin, newMax) {
@@ -641,7 +672,7 @@ function convertToChordPairs(data) {
             const value = children[j].value;
             const oldValue = children[j].oldValue;
             console.log(result.filter(e => e.from === emotion2 && e.to === emotion1).length )
-            if(result.filter(e => e.from === emotion2 && e.to === emotion1).length == 0) {
+            if(result.filter(e => e.from === emotion2 && e.to === emotion1).length === 0) {
                 result.push({from: emotion1, to: emotion2, value: value, oldValue: oldValue });
             }
         }
@@ -651,6 +682,9 @@ function convertToChordPairs(data) {
 }
 
 $(document).ready(function () {
+
+    currentChartIndex = 0;
+
     // Select the button element by its ID and attach a click event handler
     $("#fdg").click(function () {
         renderCurrentChart();
