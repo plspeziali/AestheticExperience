@@ -17,6 +17,10 @@ body {
     padding-right: 25px !important;
 }
 
+.navbar-nav .nav-item:not(:last-child) {
+    border-right: 1px solid #9a9c9d;
+}
+
 .nav-icon {
     font-size: 1.5em;
     padding-right: 5px;
@@ -52,8 +56,8 @@ body {
 }
 
 .content-div {
-    width: 70%;
-    height: 70%;
+    width: 60%;
+    height: 60%;
     position: absolute;
     top: 45%;
     left: 50%;
@@ -64,7 +68,7 @@ body {
     justify-content: center;
     align-content: center;
     flex-direction: column;
-    min-height: 700px;
+    min-height: 600px;
 }
 
 .legend-div {
