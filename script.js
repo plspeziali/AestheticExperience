@@ -27,13 +27,13 @@ const adjectiveToIcon = {
 const artworks = [
     {
         artist: "Paul Klee",
-        title: "Zeichen in Gelb/ Sign in Yellow",
+        title: "Zeichen in Gelb / Sign in Yellow",
         year: 1937,
         collection: "Foundation Beyeler, Riehen/Basel"
     },
     {
         artist: "Paul Klee",
-        title: "Blick aus Rot/ Be aware of Red",
+        title: "Blick aus Rot / Be aware of Red",
         year: 1937,
         collection: "Zentrum Paul Klee, Bern"
     },
@@ -51,13 +51,13 @@ const artworks = [
     },
     {
         artist: "Richard Mortensen",
-        title: "Øvelsesstykker/ Exercise pieces",
+        title: "Øvelsesstykker / Exercise pieces",
         year: 1922,
         collection: "Private Collection, Sold by Bruun Rasmussen Auctioneers, 6. August 1992, lot 728"
     },
     {
         artist: "Richard Mortensen",
-        title: "Øvelsesstykker/ Exercise pieces",
+        title: "Øvelsesstykker / Exercise pieces",
         year: 1922,
         color: "Orange",
         collection: "Private Collection, On sale at Bruun Rasmussen Auctioneers, 20. July 1992, lot 729"
@@ -70,7 +70,7 @@ const artworks = [
     },
     {
         artist: "Fritz Winter",
-        title: "Siebdruck 6/ Silkscreen 6",
+        title: "Siebdruck 6 / Silkscreen 6",
         year: 1950,
         collection: "Galleri MDA, Sweden, Helsingborg"
     }
@@ -508,11 +508,38 @@ function createMenu(){
 
         $("#chart").empty();
         $("#legend").remove();
-        $("#chart").append("<div class=\"chart-container content-div\" id=\"menudiv\"></div>");
+        $("#chart").append("<div class=\"chart-container content-div menu\" id=\"menudiv\"></div>");
+        $("#menudiv").append("<div class=\"menu-header\">\n" +
+            "            <h1>Aesthetic Experience</h1>\n" +
+            "            <p>by Paolo Speziali</p>\n" +
+            "        </div>\n" +
+            "        <div class=\"menu-grid\" id=\"menu-grid\">\n" +
+            "            <!-- Menu items will be generated dynamically with jQuery -->\n" +
+            "        </div>")
         let bgdiv = document.getElementById('bgdiv');
         bgdiv.style.background = "linear-gradient(to bottom, #333, #666)";
 
-        $("#menudiv").append("");
+        let i = 0;
+        const menuGrid = $('#menu-grid');
+
+        artworks.forEach(function(artwork) {
+            i++
+            const menuItem = $('<div>').addClass('menu-item bg-image').attr('index', i-1);
+            const link = $('<a>').attr('href', artwork.link);
+            const image = $('<img>').attr('src', 'images/'+i+'.jpg').attr('alt', artwork.title);
+            const title = $('<h2>').text(artwork.title);
+            const artist = $('<p>').text(artwork.artist);
+
+            menuItem.on('click', function() {
+                currentChartIndex = parseInt($(this).attr('index'));
+                console.log(currentChartIndex)
+                renderCurrentChart();
+            });
+
+            link.append(image, title, artist);
+            menuItem.append(link);
+            menuGrid.append(menuItem);
+        });
 
     });
 
