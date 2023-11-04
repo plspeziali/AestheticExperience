@@ -71,6 +71,29 @@ body {
     min-height: 600px;
 }
 
+.title-div {
+    width: 35%;
+    height: 5%;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    border-radius: 25px;
+    background-color:  rgba(255, 255, 255, .5)  ;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 24px; /* Adjust the size as needed */
+    font-weight: bold;
+}
+
+.title-div p{
+    margin-top: 15px;
+}
+
+
 .legend-div {
     width: 20%;
     height: 35%;

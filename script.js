@@ -39,7 +39,7 @@ const artworks = [
     },
     {
         artist: "Wassily Kandinsky",
-        title: "Regungen/Impulses",
+        title: "Regungen / Impulses",
         year: 1928,
         collection: "Albertina, Vienna, Permanent loan basis, Collection Forberg",
     },
@@ -122,10 +122,16 @@ function createChart(paint_selected){
 
         $("#chart").empty();
         $("#legend").remove();
+        $("#titlediv").remove();
+        $("#ul-list").show();
         let bgdiv = document.getElementById('bgdiv');
         bgdiv.style.background = "";
         bgdiv.style.backgroundImage = "url('images/"+(paint_selected+1)+".jpg')";
         $("#bgdiv").append("<div class=\"chart-container legend-div\" id=\"legend\"></div>");
+
+        $("#bgdiv").append("<div class=\"chart-container title-div\" id=\"titlediv\">" +
+            "<p>"+artworks[paint_selected].artist+" - "+artworks[paint_selected].title+"</p>" +
+            "</div>");
 
         // Get the element where you want to append the legend
         const legendContainer = $('#legend');
@@ -322,6 +328,11 @@ function createHeat(paint_selected){
 
         $("#chart").empty();
         $("#legend").remove();
+        $("#titlediv").remove();
+        $("#ul-list").show();
+        $("#chart").append("<div class=\"chart-container title-div\" id=\"titlediv\">" +
+            "<p>"+artworks[paint_selected].artist+" - "+artworks[paint_selected].title+"</p>" +
+            "</div>");
         $("#chart").append("<div class=\"chart-container content-div\" id=\"heatdiv\"></div>");
         let bgdiv = document.getElementById('bgdiv');
         bgdiv.style.background = "";
@@ -398,9 +409,7 @@ function createHeat(paint_selected){
 
     });
 
-    $("#bgdiv").fadeIn(500, function() {
-
-    });
+    $("#bgdiv").fadeIn(500);
 
 }
 
@@ -409,6 +418,11 @@ function createChordDiagram(paint_selected){
 
         $("#chart").empty();
         $("#legend").remove();
+        $("#titlediv").remove();
+        $("#ul-list").show();
+        $("#chart").append("<div class=\"chart-container title-div\" id=\"titlediv\">" +
+            "<p>"+artworks[paint_selected].artist+" - "+artworks[paint_selected].title+"</p>" +
+            "</div>");
         $("#chart").append("<div class=\"chart-container content-div\" id=\"chord-div\"></div>");
         let bgdiv = document.getElementById('bgdiv');
         bgdiv.style.background = "";
@@ -466,9 +480,7 @@ function createChordDiagram(paint_selected){
 
     });
 
-    $("#bgdiv").fadeIn(500, function() {
-
-    });
+    $("#bgdiv").fadeIn(500);
 }
 
 function createAbout(paint_selected){
@@ -476,6 +488,8 @@ function createAbout(paint_selected){
 
         $("#chart").empty();
         $("#legend").remove();
+        $("#titlediv").remove();
+        $("#ul-list").show();
         $("#chart").append("<div class=\"chart-container content-div\" id=\"infodiv\"></div>");
         let bgdiv = document.getElementById('bgdiv');
         bgdiv.style.background = "";
@@ -498,9 +512,7 @@ function createAbout(paint_selected){
         );
     });
 
-    $("#bgdiv").fadeIn(500, function() {
-
-    });
+    $("#bgdiv").fadeIn(500);
 }
 
 function createMenu(){
@@ -508,6 +520,8 @@ function createMenu(){
 
         $("#chart").empty();
         $("#legend").remove();
+        $("#titlediv").remove();
+        $("#ul-list").hide();
         $("#chart").append("<div class=\"chart-container content-div menu\" id=\"menudiv\"></div>");
         $("#menudiv").append("<div class=\"menu-header\">\n" +
             "            <h1>Aesthetic Experience</h1>\n" +
