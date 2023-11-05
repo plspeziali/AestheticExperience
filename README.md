@@ -4,6 +4,8 @@ The following application is my project for the
 Information Visualization and Visual Analysis
 exam at University of Perugia.
 
+Be sure to run it in an environment with a 1920 × 1080 resolution!
+
 ## Features
 
 - Visualize the aesthetic experience network dataset with the following charts:
@@ -21,6 +23,8 @@ To run this application, make sure you have Node.js installed on your system. Th
 3. Install dependencies with `npm install`
 4. Start the application with `npm start`
 
+Or, visit [this webpage](https://plspeziali.github.io/AestheticExperience).
+
 
 ## Dataset
 
@@ -33,6 +37,7 @@ between them.
 
 ## Screenshots
 
+![Main Menu](./screenshots/menu.png)
 ![Force Directed Graph](./screenshots/force-directed-graph.png)
 ![Heatmap](./screenshots/heatmap.png)
 ![Chord Diagram](./screenshots/chord-diagram.png)

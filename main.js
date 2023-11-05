@@ -4,14 +4,15 @@ const path = require('node:path')
 
 function createWindow () {
     const win = new BrowserWindow({
-        width: 1280,
-        height: 960,
+        width: 1920,
+        height: 1080,
         autoHideMenuBar: true,
         title: 'Aesthetic Experience - Paolo Speziali',
         webPreferences: {
             preload: path.join(__dirname, 'preload.js')
         }
     })
+    win.maximize();
 
     win.webContents.setFrameRate(60)
 
