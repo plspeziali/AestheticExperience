@@ -3,3 +3,4 @@ package-lock.json
 node_modules/**
 .idea/**
 AestheticExperience-win32-x64/**
+AestheticExperience-win32-x64.zip
