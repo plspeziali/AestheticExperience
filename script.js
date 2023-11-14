@@ -330,10 +330,10 @@ function createHeat(paint_selected){
         $("#legend").remove();
         $("#titlediv").remove();
         $("#ul-list").show();
+        $("#chart").append("<div class=\"chart-container content-div\" id=\"heatdiv\"></div>");
         $("#chart").append("<div class=\"chart-container title-div\" id=\"titlediv\">" +
             "<p>"+artworks[paint_selected].artist+" - "+artworks[paint_selected].title+"</p>" +
             "</div>");
-        $("#chart").append("<div class=\"chart-container content-div\" id=\"heatdiv\"></div>");
         let bgdiv = document.getElementById('bgdiv');
         bgdiv.style.background = "";
         bgdiv.style.backgroundImage = "url('images/"+(paint_selected+1)+".jpg')";
@@ -349,6 +349,7 @@ function createHeat(paint_selected){
 
         xAxis.renderer.grid.template.disabled = true;
         xAxis.renderer.minGridDistance = 40;
+        xAxis.renderer.labels.template.rotation = -30n;
 
         yAxis.renderer.grid.template.disabled = true;
         yAxis.renderer.inversed = true;
@@ -420,10 +421,10 @@ function createChordDiagram(paint_selected){
         $("#legend").remove();
         $("#titlediv").remove();
         $("#ul-list").show();
+        $("#chart").append("<div class=\"chart-container content-div\" id=\"chord-div\"></div>");
         $("#chart").append("<div class=\"chart-container title-div\" id=\"titlediv\">" +
             "<p>"+artworks[paint_selected].artist+" - "+artworks[paint_selected].title+"</p>" +
             "</div>");
-        $("#chart").append("<div class=\"chart-container content-div\" id=\"chord-div\"></div>");
         let bgdiv = document.getElementById('bgdiv');
         bgdiv.style.background = "";
         bgdiv.style.backgroundImage = "url('images/"+(paint_selected+1)+".jpg')";
