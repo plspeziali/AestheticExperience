@@ -643,6 +643,7 @@ function minMaxNormalizeToRange(data, newMin, newMax) {
     function traverse(obj) {
         for (const obj of data) {
             //console.log(obj)
+            obj.name = obj.name.replace(" ","<br>")
             for (const emo of obj.children) {
                 emo.icon = adjectiveToIcon[emo.name];
                 //console.log(emo)
