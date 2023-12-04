@@ -208,6 +208,7 @@ function createChart(paint_selected){
         networkSeries.dataFields.value = "value";
         networkSeries.dataFields.oldValue = "oldValue";
         networkSeries.dataFields.name = "name";
+        networkSeries.dataFields.rootname = "rootname";
         networkSeries.dataFields.icon = "icon"
         networkSeries.dataFields.children = "children";
         networkSeries.nodes.template.tooltipText = "{name}";
@@ -221,7 +222,7 @@ function createChart(paint_selected){
             if (target.dataItem) {
                 switch(target.dataItem.level) {
                     case 0:
-                        return "<h5>{name}</h5>";
+                        return "<h5>{rootname}</h5>";
                 }
             }
             return text;
@@ -643,7 +644,7 @@ function minMaxNormalizeToRange(data, newMin, newMax) {
     function traverse(obj) {
         for (const obj of data) {
             //console.log(obj)
-            obj.name = obj.name.replace(" ","<br>")
+            obj.rootname = obj.name.replace(" ","<br>")
             for (const emo of obj.children) {
                 emo.icon = adjectiveToIcon[emo.name];
                 //console.log(emo)
